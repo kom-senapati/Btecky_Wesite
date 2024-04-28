@@ -55,43 +55,29 @@ const volunteershipcards = [
     title: "Telegram",
     cardImage: "assets/images/experience-page/1.png",
     description:
-      "add folloer number and habe allredy join , Join now ",
-    link:"https://www.youtube.com/@btecky"
+      "Join now ",
+    link:"https://t.me/bteckyls"
   },
   {
     title: "Whatapp Channel",
     cardImage: "assets/images/experience-page/2.jpg",
     description:
-      "add folloer number and habe allredy join , Join now ",
-    link:"add click able link" 
+      "Join now ",
+    link:"https://whatsapp.com/channel/0029Va7uSWT7oQhlRVJKka1Q" 
   },
   {
     title: "Instagram",
     cardImage: "assets/images/experience-page/3.jpg",
     description:
-      "add folloer number and habe allredy join , Join now ",
-    link:"add click able link"
+      "Join now ",
+    link:"https://www.instagram.com/lavish_sheth_ls/"
   },
   {
     title: "LinkedIn",
     cardImage: "assets/images/experience-page/4.png",
     description:
-      "add folloer number and habe allredy join , Join now ",
-    link:"fgfhghf"
-  },
-  {
-    title: "Twitter , X ",
-    cardImage: "assets/images/experience-page/5.png",
-    description:
-      "add folloer number and habe allredy join , Join now ",
-    link:"add click able link"
-  },
-  {
-    title: "FaceBook",
-    cardImage: "assets/images/experience-page/6.png",
-    description:
-      "add folloer number and habe allredy join , Join now ",
-    link:"add click able link"
+      "Join now ",
+    link:"https://www.linkedin.com/in/lavish-sheth-163844215/"
   },
 ];
 
