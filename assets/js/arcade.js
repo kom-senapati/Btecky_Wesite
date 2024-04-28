@@ -5,41 +5,41 @@ const arcadecards = document.querySelector(".arcadecards");
 
 // Array of object for arcades
 const arcades = [
-  {
-    title: "March Level 1",
-    code:" 1q-loadbal-961 ",
-    cardImage: "assets/images/arcade/lv1.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "March Level 2",
-    code:" 1q-kbnts-234 ",
-    cardImage: "assets/images/arcade/lv2.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "March Level 3",
-    code:" 1q-genai-534 ",
-    cardImage: "assets/images/arcade/lv3.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "March Trivia Week 1",
-    code:" 1q-trivia-03142 ",
-    cardImage: "assets/images/arcade/w1.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "March Trivia Week 2",
-    code:": ",
-    cardImage: "assets/images/arcade/w2.png",
-    Previewlink: "",
-    Githublink: "",
-  },
+  // {
+  //   title: "March Level 1",
+  //   code:" 1q-loadbal-961 ",
+  //   cardImage: "assets/images/arcade/lv1.png",
+  //   Previewlink: "",
+  //   Githublink: "",
+  // },
+  // {
+  //   title: "March Level 2",
+  //   code:" 1q-kbnts-234 ",
+  //   cardImage: "assets/images/arcade/lv2.png",
+  //   Previewlink: "",
+  //   Githublink: "",
+  // },
+  // {
+  //   title: "March Level 3",
+  //   code:" 1q-genai-534 ",
+  //   cardImage: "assets/images/arcade/lv3.png",
+  //   Previewlink: "",
+  //   Githublink: "",
+  // },
+  // {
+  //   title: "March Trivia Week 1",
+  //   code:" 1q-trivia-03142 ",
+  //   cardImage: "assets/images/arcade/w1.png",
+  //   Previewlink: "",
+  //   Githublink: "",
+  // },
+  // {
+  //   title: "March Trivia Week 2",
+  //   code:": ",
+  //   cardImage: "assets/images/arcade/w2.png",
+  //   Previewlink: "",
+  //   Githublink: "",
+  // },
   // {
   //   title: "March Trivia Week 3",
   //   code:": ",
