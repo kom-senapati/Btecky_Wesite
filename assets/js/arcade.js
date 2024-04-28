@@ -146,7 +146,7 @@ const showCards2 = () => {
             </ol>          
             <ol>
             <div class="desptext">
-              <a href="https://youtube.com" class="redirect-button" target="_blank">${desp3}</a>
+              <a href="https://www.youtube.com/playlist?list=PL5aOhqv5LVIrRVJdqHa3I-426vTPrdpb8" class="redirect-button" target="_blank">${desp3}</a>
             </div>
             </ol>
           </header>
