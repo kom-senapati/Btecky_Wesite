@@ -5,55 +5,55 @@ const arcadecards = document.querySelector(".arcadecards");
 
 // Array of object for arcades
 const arcades = [
-  // {
-  //   title: "March Level 1",
-  //   code:" 1q-loadbal-961 ",
-  //   cardImage: "assets/images/arcade/lv1.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "March Level 2",
-  //   code:" 1q-kbnts-234 ",
-  //   cardImage: "assets/images/arcade/lv2.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "March Level 3",
-  //   code:" 1q-genai-534 ",
-  //   cardImage: "assets/images/arcade/lv3.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "March Trivia Week 1",
-  //   code:" 1q-trivia-03142 ",
-  //   cardImage: "assets/images/arcade/w1.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "March Trivia Week 2",
-  //   code:": ",
-  //   cardImage: "assets/images/arcade/w2.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "March Trivia Week 3",
-  //   code:": ",
-  //   cardImage: "assets/images/arcade/w3.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "March Trivia Week 4",
-  //   code:": ",
-  //   cardImage: "assets/images/arcade/w4.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
+  {
+    title: "May Level 1",
+    code:" 1q-loadbal-961 ",
+    cardImage: "assets/images/arcade/lv1.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "May Level 2",
+    code:" 1q-kbnts-234 ",
+    cardImage: "assets/images/arcade/lv2.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "May Level 3",
+    code:" 1q-genai-534 ",
+    cardImage: "assets/images/arcade/lv3.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "May Trivia Week 1",
+    code:" 1q-trivia-03142 ",
+    cardImage: "assets/images/arcade/w1.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "May Trivia Week 2",
+    code:": ",
+    cardImage: "assets/images/arcade/w2.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "May Trivia Week 3",
+    code:": ",
+    cardImage: "assets/images/arcade/w3.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "May Trivia Week 4",
+    code:": ",
+    cardImage: "assets/images/arcade/w4.png",
+    Previewlink: "",
+    Githublink: "",
+  },
 ];
 
 // function for rendering arcade cards data
@@ -115,8 +115,8 @@ const experiencecards = document.querySelector(".about_us-cards");
 const exp = [
   {
      title: "Monthly Subscripation Code and link ",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    desp: " code.",
+    desp: " 5p-EDUCR-UA-DEV-February2024-90",
+    // need to update new code 
     desp2: "Click the code to copy it. Below, click the button to go to the redemption page.",
     desp3: "Site",
   }
@@ -146,7 +146,7 @@ const showCards2 = () => {
             </ol>          
             <ol>
             <div class="desptext">
-              <a href="https://www.youtube.com/playlist?list=PL5aOhqv5LVIrRVJdqHa3I-426vTPrdpb8" class="redirect-button" target="_blank">${desp3}</a>
+              <a href="https://www.cloudskillsboost.google/catalog?keywords=GSP282&event=Your" class="redirect-button" target="_blank">${desp3}</a>
             </div>
             </ol>
           </header>
@@ -200,57 +200,4 @@ function copyToClipboard(text) {
     });
 }
 
-
-
 document.addEventListener("DOMContentLoaded", showCards2);
-
-
-
-
-
-
-
-const experiencecards_2 = document.querySelector(".about_us_2-cards");
-const exp_2 = [
-  {
-     title: "All Important Links",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    desp: "Welcome to the channel! I'm Lavish, a computer science student pursuing my B-Tech degree. I'm incredibly passionate about technology and I'm thrilled to share my knowledge with all of you amazing individuals.",
-    desp2: "On this channel, you can expect a wide array of educational videos covering topics such as Google Cloud and the Qwiklab program, as well as insights into various other events. I'll also be sharing programming videos, tips and tricks, interviews, internships, and much more!",
-    desp3: "My goal is to provide you with valuable content that you can apply to your own learning journey. If you enjoy the videos , I invite you to join our ever-growing family by hitting that red subscribe button. Together, we can continue to explore the exciting world of technology.",
-  }
-];
-
-const showCards3 = () => {
-  let output = "";
-  exp.forEach(
-    ({ title , desp , desp2 , desp3}) =>
-      (output += `        
-    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
-      <div class="card card1">
-        <article class="card-body">
-          <header><div class="title"><h3>${title}</h3></div>
-            <ol>
-            <div class="desptext">
-              ${desp}
-            </div>
-            </ol>
-            <ol>
-            <div class="desptext">
-              ${desp2}
-            </div>
-            </ol>
-            <ol>
-            <div class="desptext">
-              ${desp3}
-            </div>
-            </ol>
-          </header>
-        </article>
-      </div>
-    </div>
-      `)
-  );
-  experiencecards_2.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards3);
