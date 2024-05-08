@@ -22,6 +22,21 @@ const moocscards = [
   {
     title: "Greek For Greeks",
   },
+  {
+    title: "Level Up",
+  },
+  {
+    title: "Masai School",
+  },
+  {
+    title: "Red Pill",
+  },
+  {
+    title: "Naukari",
+  },
+  {
+    title: "Syncloop",
+  },
 ];
 
 
