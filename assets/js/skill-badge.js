@@ -310,6 +310,85 @@ const research = [
        <a href="https://youtu.be/GZgFW6ZwEG4" target="_blank">Prompt Design in Vertex AI: Challenge Lab</a>`
   },
   },
+  
+
+   // sb 13
+  {
+    title: "Develop GenAI Apps with Gemini and Streamlit",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/978",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIoHIS0aHUyvppEPTPdAjFpv",
+    credit: "20",
+    labs:"5",
+    box1: "absPopup1",
+    lablink: `<a href="https://www.cloudskillsboost.google/course_templates/976/labs/466368" target="_blank">Getting Started with the Vertex AI Gemini API with cURL</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466369" target="_blank">Introduction to Function Calling with Gemini</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466369" target="_blank">Getting Started with the Vertex AI Gemini API and Python SDK</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466369" target="_blank">Deploy a Streamlit App Integrated with Gemini Pro on Cloud Run</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466371" target="_blank">Develop GenAI Apps with Gemini and Streamlit: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb11.png",
+    video: {
+      link: `<a href="" target="_blank">Getting Started with the Vertex AI Gemini API with cURL</a>
+      <a href="" target="_blank">Introduction to Function Calling with Gemini</a>
+      <a href="" target="_blank">Getting Started with the Vertex AI Gemini API and Python SDK</a>
+      <a href="" target="_blank">Deploy a Streamlit App Integrated with Gemini Pro on Cloud Run</a>
+      <a href="" target="_blank">Develop GenAI Apps with Gemini and Streamlit: Challenge Lab</a>`
+  },
+  },
+
+
+  // sb 14 
+  {
+    title: "Create ML Models with BigQuery MLt",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/626",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIoqlFjMOq8PywK-qQR_oc90",
+    credit: "11",
+    labs:"5",
+    box1: "absPopup1",
+    lablink: `<a href="https://www.cloudskillsboost.google/course_templates/626/labs/464873" target="_blank">Getting Started with BigQuery ML</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/626/labs/464874" target="_blank">Predict Visitor Purchases with a Classification Model in BigQuery ML</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/626/labs/464875" target="_blank">Predict Taxi Fare with a BigQuery ML Forecasting Model</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/626/labs/464876" target="_blank">Bracketology with Google Machine Learning</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/626/labs/464877" target="_blank">Create ML Models with BigQuery ML: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb11.png",
+    video: {
+      link: `<a href="" target="_blank">Getting Started with BigQuery ML</a>
+      <a href="" target="_blank">Predict Visitor Purchases with a Classification Model in BigQuery ML</a>
+      <a href="" target="_blank">Predict Taxi Fare with a BigQuery ML Forecasting Model</a>
+      <a href="" target="_blank">Bracketology with Google Machine Learning</a>
+      <a href="" target="_blank">Create ML Models with BigQuery ML: Challenge Lab</a>`
+  },
+  },
+
+
+  // sb 15
+  {
+    title: "Get Started with Dataplex",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/726",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIrUBEmeEYy3XLphGkjDVEm0",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="https://www.cloudskillsboost.google/course_templates/726/labs/461568" target="_blank">Dataplex: Qwik Start - ConsoleL</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/726/labs/461569" target="_blank">Dataplex: Qwik Start - Command Line</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/726/labs/461570" target="_blank">Tagging Dataplex Assets</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/726/labs/461571" target="_blank">Get Started with Dataplex: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb11.png",
+    video: {
+      link: `<a href="" target="_blank">Dataplex: Qwik Start - Console</a>
+      <a href="" target="_blank">Dataplex: Qwik Start - Command Line</a>
+      <a href="" target="_blank">Tagging Dataplex Assets</a>
+      <a href="" target="_blank">Get Started with Dataplex: Challenge Lab</a>`
+  },
+  },
 
 ];
 AOS.init();
