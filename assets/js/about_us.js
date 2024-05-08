@@ -92,7 +92,7 @@ const showCards = () => {
       <div class="content">
           <h2 class="volunteerTitle"><Em>${title}</Em></h2><br>
           <p class="copy">${description}</p></div>
-        <a href="${link}" class="sociallink"><stronge>Link to connect</stronge> </a> 
+        <a href="${link}" target="_blank" class="sociallink"><stronge>Link to connect</stronge> </a> 
       
       </div>
       `)
