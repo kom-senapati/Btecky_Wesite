@@ -286,6 +286,33 @@ const research = [
   },
   },
 
+
+  //sb 12
+  {
+    title: "Prompt Design in Vertex AI",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/976",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIpGYa_pR6PYmUk2kwd60xWC",
+    credit: "0",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="https://www.cloudskillsboost.google/course_templates/976/labs/466368" target="_blank">
+    Generative AI with Vertex AI: Prompt Design</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466369" target="_blank">Get Started with Vertex AI Studio</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466369" target="_blank">Getting Started with the Vertex AI Gemini API and Python SDK</a>
+     <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466371" target="_blank">Prompt Design in Vertex AI: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb11.png",
+    video: {
+      link: `<a href="https://youtu.be/FE40dzAof3M" target="_blank">
+      Generative AI with Vertex AI: Prompt Design</a>
+       <a href="https://youtu.be/yFnteBaUwOM" target="_blank">Get Started with Vertex AI Studio</a>
+       <a href="https://youtu.be/6DMza4gk-AM" target="_blank">Getting Started with the Vertex AI Gemini API and Python SDK</a>
+       <a href="https://youtu.be/GZgFW6ZwEG4" target="_blank">Prompt Design in Vertex AI: Challenge Lab</a>`
+  },
+  },
+
 ];
 AOS.init();
 const fillData = () => {
