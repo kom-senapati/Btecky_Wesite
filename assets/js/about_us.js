@@ -126,7 +126,7 @@ const mentor = [
   },
   {
     title: "Sumit Kumar",
-    subtitle: "Judge",
+    subtitle: "Technical Adviser",
     image: "assets/images/experience-page/sumit.jpg",
     desp: "Syncloop Campus Ambassador with expertise in technical writing, content creation, and cloud computing. Strong communicator with a passion for community engagement and leadership.",
     href: "https://www.linkedin.com/in/sumit-kumar-6999999cloudcomputing/",
