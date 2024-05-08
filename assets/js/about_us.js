@@ -108,7 +108,7 @@ const mentor = [
     subtitle: "Owner",
     image: "assets/images/experience-page/lavish.png",
     desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-    href: "https://uplift.girlscript.tech/",
+    href: "https://www.linkedin.com/in/lavish-sheth-163844215/",
   },
   {
     title: "KushaL Agrawal",
@@ -145,7 +145,7 @@ const mentor = [
             <div class="blog-slider__title">${title}</div>
             <span class="blog-slider__code">${subtitle}</span>
             <div class="blog-slider__text">${desp}</div>
-            <a href="${href}" class="blog-slider__button">Connect him on linkedIn </a>   
+            <a href="${href}" target="_blank" class="blog-slider__button">Connect him on linkedIn </a>   
           </div>
         </div>
         `)
