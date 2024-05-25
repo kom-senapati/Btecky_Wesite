@@ -44,15 +44,22 @@ const arcades = [
     title: "May Trivia Week 3",
     code:" 1q-trivia-04113 ",
     cardImage: "assets/images/arcade/w3.png",
-    Previewlink: "",
-    Githublink: "https://www.youtube.com/playlist?list=PL5aOhqv5LVIqtZb76_bms23xF-Sbt1jC0",
+    Previewlink: "https://www.cloudskillsboost.google/games/5113?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-may-trivia",
+    Githublink: "https://www.youtube.com/playlist?list=PL5aOhqv5LVIoHu2BemI1Z_SgUJyTRHL3d",
   },
   {
     title: "May Trivia Week 4",
     code:" 1q-trivia-04114 ",
     cardImage: "assets/images/arcade/w4.png",
-    Previewlink: "",
-    Githublink: "https://www.youtube.com/playlist?list=PL5aOhqv5LVIpPaydkkH-8Hd0zTodXHHbS",
+    Previewlink: "https://www.cloudskillsboost.google/games/5131?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-may-trivia",
+    Githublink: "https://www.youtube.com/playlist?list=PL5aOhqv5LVIpJiybRIeyqdzkod2VG_sh3",
+  },
+  {
+    title: "The Arcade Health Tech",
+    code:" 1q-health-0563",
+    cardImage: "assets/images/arcade/p2.png",
+    Previewlink: "https://www.cloudskillsboost.google/games/5130?utm_source=qwiklabs&utm_medium=lp&utm_campaign=health-tech-may-arcade24",
+    Githublink: "https://www.youtube.com/playlist?list=PL5aOhqv5LVIpzBewWRJeLhZGmR6vxyinV",
   },
 ];
 
