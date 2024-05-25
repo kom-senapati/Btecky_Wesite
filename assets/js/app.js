@@ -133,21 +133,35 @@ let footer = $(`
 
 
 
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/zr6k48ZuAT" method="POST" accept-charset="UTF-8" >
+                <form name="submit-to-google-sheet">
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
+
+                  <input id="email" type="email" name="email" placeholder="Email Address" required/>  
+                                  
                   <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
               
                   <div id="main">
-                    <button id="lnch" type="button" value="Send" >Send</button>
+                    <button id="lnch" type="submit" value="Send" >Send</button>
                     <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
                   </div>
                 </form>
+                <script>
+                 const scriptURL = 'https://script.google.com/macros/s/AKfycbxraBUWcdtZKkQzsTCTubB41F84tH0EHjB4F-Ewb-nHD9131adFj1XB5uMatuk2DAn-/exec'
+                 const form = document.forms['submit-to-google-sheet']
+
+                 form.addEventListener('submit', e => {
+                   e.preventDefault()
+                   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                     .then(response => console.log('Success!', response))
+                     .catch(error => console.error('Error!', error.message))
+                 })
+                </script>
+
               </div>
             </div>
           </div>
