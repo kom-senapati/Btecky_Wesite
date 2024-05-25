@@ -81,6 +81,46 @@
                     <img src="assets/images/dp_logo.jpg" alt="" class="rounded-circle" height="200" width="200">
                 </div>
                 <br/>
+
+                
+
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
+                    <div class="form-style-6">
+                       <div class="form-header_1">
+                          <h6 class="display">Subscribe Newsletter</h6>
+                        </div>
+                          <form name="submit-to-google-sheet">
+                            <input id="name" type="text" name="name" placeholder="Your Name" required/>
+          
+                            <input id="email" type="email" name="email" placeholder="Email Address" required/>  
+                                            
+                            <textarea id="textArea" name="message" placeholder="Feedback" required></textarea>
+                        
+                            <div id="main_1">
+                              <button id="lnch" type="submit" value="Send" >Submit</button>
+                              <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
+                            </div>
+                          </form>
+                          <script>
+                           const scriptURL = 'https://script.google.com/macros/s/AKfycbzW7ci7NEcCh3sVo3wSU8sgW1hXPdbXD_jm-xhBgRn8OLvRA5soMQFwOi2g2NKCYrv08Q/exec'
+                           const form = document.forms['submit-to-google-sheet']
+          
+                           form.addEventListener('submit', e => {
+                             e.preventDefault()
+                             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                               .then(response => console.log('Success!', response))
+                               .catch(error => console.error('Error!', error.message))
+                           })
+                          </script>
+          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <br><br>
+
+
                 <!-- <span style="display: inline;">I am into <span class="animated-text"
                     data-words="Designing, UI/UX, Cloud Computing, Web Development, Open Source, Mentoring"></span>
                 </span> -->
