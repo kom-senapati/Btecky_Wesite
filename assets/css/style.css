@@ -1026,13 +1026,15 @@ outline: none;
   font-size: 25px;
   color: #fff;
   line-height: 1;
-  /* padding: 20px 25px; */
-  text-align: center;
+  /* padding: 20px 25px;  */
+  /* text-align: left; */
   border-radius: 50px;
   border-style: none;
   transition: 0.5s ease background-color, 0.5s ease box-shadow;
   background: #bb86fc;
 }
+
+
 #lnch_btn {
   position: absolute;
   top: 0px;
@@ -1040,9 +1042,10 @@ outline: none;
   font-size: 22px;
   line-height: 1;
   color: #fff;
- padding: 10px 50px;
+ padding: 10px 64px;
   cursor: pointer;
   transition: 0.3s ease transform;
+  align-items: center;
 }
 #lnch.launching {
   background-color: #f39c12;
