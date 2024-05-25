@@ -302,7 +302,7 @@ const research = [
      <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466369" target="_blank">Getting Started with the Vertex AI Gemini API and Python SDK</a>
      <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466371" target="_blank">Prompt Design in Vertex AI: Challenge Lab</a>`,
     box2 : "popup1",
-    image: "assets/images/skill-badge/sb11.png",
+    image: "assets/images/skill-badge/sb12.png",
     video: {
       link: `<a href="https://youtu.be/FE40dzAof3M" target="_blank">Generative AI with Vertex AI: Prompt Design</a>
        <a href="https://youtu.be/yFnteBaUwOM" target="_blank">Get Started with Vertex AI Studio</a>
@@ -328,7 +328,7 @@ const research = [
      <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466369" target="_blank">Deploy a Streamlit App Integrated with Gemini Pro on Cloud Run</a>
      <a href="https://www.cloudskillsboost.google/course_templates/976/labs/466371" target="_blank">Develop GenAI Apps with Gemini and Streamlit: Challenge Lab</a>`,
     box2 : "popup1",
-    image: "assets/images/skill-badge/sb11.png",
+    image: "assets/images/skill-badge/sb13.png",
     video: {
       link: `<a href="" target="_blank">Getting Started with the Vertex AI Gemini API with cURL</a>
       <a href="" target="_blank">Introduction to Function Calling with Gemini</a>
@@ -355,7 +355,7 @@ const research = [
      <a href="https://www.cloudskillsboost.google/course_templates/626/labs/464876" target="_blank">Bracketology with Google Machine Learning</a>
      <a href="https://www.cloudskillsboost.google/course_templates/626/labs/464877" target="_blank">Create ML Models with BigQuery ML: Challenge Lab</a>`,
     box2 : "popup1",
-    image: "assets/images/skill-badge/sb11.png",
+    image: "assets/images/skill-badge/sb14.png",
     video: {
       link: `<a href="" target="_blank">Getting Started with BigQuery ML</a>
       <a href="" target="_blank">Predict Visitor Purchases with a Classification Model in BigQuery ML</a>
@@ -381,7 +381,7 @@ const research = [
      <a href="https://www.cloudskillsboost.google/course_templates/726/labs/461570" target="_blank">Tagging Dataplex Assets</a>
      <a href="https://www.cloudskillsboost.google/course_templates/726/labs/461571" target="_blank">Get Started with Dataplex: Challenge Lab</a>`,
     box2 : "popup1",
-    image: "assets/images/skill-badge/sb11.png",
+    image: "assets/images/skill-badge/sb15.png",
     video: {
       link: `<a href="" target="_blank">Dataplex: Qwik Start - Console</a>
       <a href="" target="_blank">Dataplex: Qwik Start - Command Line</a>
