@@ -115,7 +115,7 @@ const experiencecards = document.querySelector(".about_us-cards");
 const exp = [
   {
      title: "Monthly Subscripation Code and link ",
-    desp: " 5p-EDUCR-UA-DEV-February2024-90",
+    desp: "1p-EDUCR-GCCF-AmritaMCABCA2024-60",
     // need to update new code 
     desp2: "Click the code to copy it. Below, click the button to go to the redemption page.",
     desp3: "Site",
