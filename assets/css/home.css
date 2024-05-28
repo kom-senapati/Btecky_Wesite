@@ -617,3 +617,13 @@ a:hover {
 }
 
 
+
+.text .header_1 {
+  font-weight: bold;
+  display: inline;
+  font-size: 27px;
+  font-weight: 200;
+  line-height: 22px;
+  border-bottom: 3px solid #bb86fc;
+}
+
