@@ -858,3 +858,11 @@ a:hover {
     width: 60%;
   }
 }
+
+
+
+.count{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(231, 85, 109);
+}
