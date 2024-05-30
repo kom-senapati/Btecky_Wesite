@@ -390,6 +390,135 @@ const research = [
   },
   },
 
+
+  // sb 16
+  {
+    title: "Analyze Sentiment with Natural Language API",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/667",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIqznKAxxW-BjIulfKx3EZOY",
+    credit: "12",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Cloud Natural Language API: Qwik Start</a>
+     <a href="" target="_blank">Using the Natural Language API from Google Docs</a>
+     <a href="" target="_blank">Entity and Sentiment Analysis with the Natural Language API</a>
+     <a href="" target="_blank">Analyze Sentiment with Natural Language API: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb16.png",
+    video: {
+      link: `<a href="" target="_blank">Cloud Natural Language API: Qwik Start</a>
+      <a href="" target="_blank">Using the Natural Language API from Google Docs</a>
+      <a href="" target="_blank">Entity and Sentiment Analysis with the Natural Language API</a>
+      <a href="" target="_blank">Analyze Sentiment with Natural Language API: Challenge Lab</a>`
+  },
+  },
+
+
+  // sb 17
+  {
+    title: "Cloud Speech API: 3 Ways",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/700",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIosXmhocAI0Eu76jnbpPRS2",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">It Speaks! Create Synthetic Speech Using Text-to-Speech</a>
+     <a href="" target="_blank">Translate Text with the Cloud Translation API</a>
+     <a href="" target="_blank">Translate Text with the Cloud Translation API</a>
+     <a href="" target="_blank">Cloud Speech API 3 Ways: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb17.png",
+    video: {
+      link: `<a href="" target="_blank">It Speaks! Create Synthetic Speech Using Text-to-Speech</a>
+      <a href="" target="_blank">Translate Text with the Cloud Translation API</a>
+      <a href="" target="_blank">Translate Text with the Cloud Translation API</a>
+      <a href="" target="_blank">Cloud Speech API 3 Ways: Challenge Lab</a>`
+  },
+  },
+
+  // sb 18
+  {
+    title: "Using the Google Cloud Speech API",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/756",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIoqFAuYlIL7y3QCLE5Knlik",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Speech-to-Text API: Qwik Start</a>
+     <a href="" target="_blank">Speaking with a Webpage - Streaming Speech Transcripts</a>
+     <a href="" target="_blank">Speech to Text Transcription with the Cloud Speech API</a>
+     <a href="" target="_blank">Using the Google Cloud Speech API: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb18.png",
+    video: {
+      link: `<a href="" target="_blank">Speech-to-Text API: Qwik Start</a>
+      <a href="" target="_blank">Speaking with a Webpage - Streaming Speech Transcripts</a>
+      <a href="" target="_blank">Speech to Text Transcription with the Cloud Speech API</a>
+      <a href="" target="_blank">Using the Google Cloud Speech API: Challenge Lab</a>`
+  },
+  },
+
+
+  // sb 19
+  {
+    title: "Create and Manage Bigtable Instances",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/756",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIoqFAuYlIL7y3QCLE5Knlik",
+    credit: "5",
+    labs:"5",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Designing and Querying Bigtable Schemas</a>
+     <a href="" target="_blank">Creating and Populating a Bigtable Instance</a>
+     <a href="" target="_blank">Streaming Data to Bigtable</a>
+     <a href="" target="_blank">Monitoring and Managing Bigtable Health and Performance</a>
+     <a href="" target="_blank">Create and Manage Bigtable Instances: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb19.png",
+    video: {
+      link: `<a href="" target="_blank">Designing and Querying Bigtable Schemas</a>
+      <a href="" target="_blank">Creating and Populating a Bigtable Instance</a>
+      <a href="" target="_blank">Streaming Data to Bigtable</a>
+      <a href="" target="_blank">Monitoring and Managing Bigtable Health and Performance</a>
+      <a href="" target="_blank">Create and Manage Bigtable Instances: Challenge Lab</a>`
+  },
+  },
+
+
+  // sb 20
+  {
+    title: "Manage Data Models in Looker",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/756",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIqmfqQwAcWTQVq3UYx-lQz-",
+    credit: "0",
+    labs:"6",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Modularizing LookML Code with Extends</a>
+     <a href="" target="_blank">Troubleshooting Data Models in Looker</a>
+     <a href="" target="_blank">Employing Best Practices for Improving the Usability of LookML Projects</a>
+     <a href="" target="_blank">Caching and Datagroups with LookML</a>
+     <a href="" target="_blank">Optimizing Performance of LookML Queries</a>
+     <a href="" target="_blank">Manage Data Models in Looker: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb20.png",
+    video: {
+      link: `<a href="" target="_blank">Designing and Querying Bigtable Schemas</a>
+      <a href="" target="_blank">Creating and Populating a Bigtable Instance</a>
+      <a href="" target="_blank">Streaming Data to Bigtable</a>
+      <a href="" target="_blank">Monitoring and Managing Bigtable Health and Performance</a>
+      <a href="" target="_blank">Create and Manage Bigtable Instances: Challenge Lab</a>`
+  },
+  },
+
 ];
 AOS.init();
 const fillData = () => {
