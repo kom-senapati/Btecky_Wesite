@@ -28,6 +28,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="achivements.html">Achivement</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="arcade.html">Arcade</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="skill-badge.html">Skill Badge</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="pointscalculator.html">Points Calculator</a></li>
   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://youtube.com/@btecky" target="_blank">Youtube</a></li>
   <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
