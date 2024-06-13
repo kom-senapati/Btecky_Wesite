@@ -79,6 +79,41 @@ const volunteershipcards = [
       "Join now ",
     link:"https://www.linkedin.com/in/lavish-sheth-163844215/"
   },
+  {
+    title: " Btecky Whatapp Community 1",
+    cardImage: "assets/images/experience-page/2.jpg",
+    description:
+      "Join now ",
+    link:"https://chat.whatsapp.com/IiJY9d1LUjXKjzQxLahf7E" 
+  },
+  {
+    title: "Btecky Whatapp Community 2",
+    cardImage: "assets/images/experience-page/2.jpg",
+    description:
+      "Join now ",
+    link:"https://whatsapp.com/channel/0029Va7uSWT7oQhlRVJKka1Q" 
+  },
+  {
+    title: "Btecky Whatapp Group 1",
+    cardImage: "assets/images/experience-page/g1.jpg",
+    description:
+      "Join now ",
+    link:"https://chat.whatsapp.com/Cg9oFyxsQ3Q2A4pVQiLg1A" 
+  },
+  {
+    title: "Btecky Whatapp Group 2",
+    cardImage: "assets/images/experience-page/g2.jpg",
+    description:
+      "Join now ",
+    link:"https://chat.whatsapp.com/K8IjflRKrV19wmhAzAtvkA" 
+  },
+  {
+    title: "Btecky Whatapp Group 3",
+    cardImage: "assets/images/experience-page/g3.jpg",
+    description:
+      "Join now ",
+    link:"https://chat.whatsapp.com/EpTufAUu4Bu8Ym3cbnKBuF" 
+  },
 ];
 
 const showCards = () => {
