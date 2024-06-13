@@ -1226,14 +1226,14 @@ ul ol {
   line-height: 1.2;
   font-weight: bold;
   color: #222;
-  margin: 0.5em 0;
+  margin: 1px 0;
   margin-top: 5rem;
   color: var(--text);
 }
 
 @media (min-width: 675px) {
   .heading1 {
-    margin-top: 5em;
+    margin-top: 1px;
   }
 }
 
