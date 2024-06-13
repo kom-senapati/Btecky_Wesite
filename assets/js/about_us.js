@@ -81,14 +81,14 @@ const volunteershipcards = [
   },
   {
     title: " Btecky Whatapp Community 1",
-    cardImage: "assets/images/experience-page/c1.jpg",
+    cardImage: "assets/images/experience-page/c1.png",
     description:
       "Join now , Join Community 2 if Coummunity 1 is full ",
     link:"https://chat.whatsapp.com/IiJY9d1LUjXKjzQxLahf7E" 
   },
   {
     title: "Btecky Whatapp Community 2",
-    cardImage: "assets/images/experience-page/c1.jpg",
+    cardImage: "assets/images/experience-page/c2.png",
     description:
       "Join now ",
     link:"https://whatsapp.com/channel/0029Va7uSWT7oQhlRVJKka1Q" 
