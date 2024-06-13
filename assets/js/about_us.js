@@ -130,7 +130,7 @@ const volunteershipcards = [
   },
   {
     title: "Btecky OpenSource - 2",
-    cardImage: "assets/images/experience-page/o1.png",
+    cardImage: "assets/images/experience-page/o2.png",
     description:
       "Join now ",
     link:"https://chat.whatsapp.com/KMg8wBIDzUHBjNWlxKfKRH" 
