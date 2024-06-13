@@ -95,21 +95,21 @@ const volunteershipcards = [
   },
   {
     title: "Btecky Whatapp Group 1",
-    cardImage: "assets/images/experience-page/g1.jpg",
+    cardImage: "assets/images/experience-page/g1.png",
     description:
       "Join now ",
     link:"https://chat.whatsapp.com/Cg9oFyxsQ3Q2A4pVQiLg1A" 
   },
   {
     title: "Btecky Whatapp Group 2",
-    cardImage: "assets/images/experience-page/g2.jpg",
+    cardImage: "assets/images/experience-page/g2.png",
     description:
       "Join now ",
     link:"https://chat.whatsapp.com/K8IjflRKrV19wmhAzAtvkA" 
   },
   {
     title: "Btecky Whatapp Group 3",
-    cardImage: "assets/images/experience-page/g3.jpg",
+    cardImage: "assets/images/experience-page/g3.png",
     description:
       "Join now ",
     link:"https://chat.whatsapp.com/EpTufAUu4Bu8Ym3cbnKBuF" 
