@@ -90,7 +90,8 @@ html[light-mode="dark"] {
   box-shadow: 0 4px 8px var(--shadow-col1);
   text-align: center;
   width: 600px;
-  height: 320px;
+  min-height: 320px; /* Default minimum height */
+  max-height: auto; 
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -1974,8 +1975,6 @@ ul ol {
 }
 
 
-
-
 .link-row {
   display: flex;
   gap: 20px;
@@ -1986,5 +1985,53 @@ ul ol {
 .dotted-line {
   border-bottom: 3px dotted #4e00bb; /* Adjust the color and thickness as needed */
   display: inline-block;
+}
+
+
+/* summary */
+
+
+.badge-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.badge-table th, .badge-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+/* .badge-table th {
+  background-color: #f2f2f2;
+}
+
+.badge-table td {
+  font-size: 16px;
+}
+
+.badge-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.badge-table tr:hover {
+  background-color: #f2f2f2;
+} */
+
+
+
+.test{
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.dropdown_1 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
 }
 
