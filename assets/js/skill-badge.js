@@ -519,6 +519,319 @@ const research = [
   },
   },
 
+
+
+  // sb 21
+  {
+    title: "Manage Bigtable on Google Cloud",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/650",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIoYv63IhrYVf1uddh_xGK2_",
+    credit: "5",
+    labs:"5",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Designing and Querying Bigtable Schemas</a>
+     <a href="" target="_blank">Creating and Populating a Bigtable Instance</a>
+     <a href="" target="_blank">Streaming Data to Bigtable</a>
+     <a href="" target="_blank">Monitoring and Managing Bigtable Health and Performance</a>
+     <a href="" target="_blank">Create and Manage Bigtable Instances: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb21.png",
+    video: {
+      link: `<a href="" target="_blank">Designing and Querying Bigtable Schemas</a>
+     <a href="" target="_blank">Creating and Populating a Bigtable Instance</a>
+     <a href="" target="_blank">Streaming Data to Bigtable</a>
+     <a href="" target="_blank">Monitoring and Managing Bigtable Health and Performance</a>
+     <a href="" target="_blank">Create and Manage Bigtable Instances: Challenge Lab</a>`
+  },
+  },
+
+
+
+  // sb 22
+  {
+    title: "Use APIs to Work with Cloud Storage",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/755",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIoZgnZGo9rnLmR0koWktUgg",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Cloud Storage: Qwik Start - CLI/SDK</a>
+     <a href="" target="_blank">APIs Explorer: Cloud Storage</a>
+     <a href="" target="_blank">Introduction to APIs in Google Cloud</a>
+     <a href="" target="_blank">Use APIs to Work with Cloud Storage: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb22.png",
+    video: {
+      link: `<a href="" target="_blank">Cloud Storage: Qwik Start - CLI/SDK</a>
+     <a href="" target="_blank">APIs Explorer: Cloud Storage</a>
+     <a href="" target="_blank">Introduction to APIs in Google Cloud</a>
+     <a href="" target="_blank">Use APIs to Work with Cloud Storage: Challenge Lab</a>`
+  },
+  },
+
+
+
+  // sb 23
+  {
+    title: "Manage Kubernetes in Google Cloud",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/783",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIriudq_grulCQbMGmNRkTj0",
+    credit: "16",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Managing Deployments Using Kubernetes Engine</a>
+     <a href="" target="_blank">Debugging Apps on Google Kubernetes Engine</a>
+     <a href="" target="_blank">Collect Metrics from Exporters using the Managed Service for Prometheus</a>
+     <a href="" target="_blank">Manage Kubernetes in Google Cloud: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb23.png",
+    video: {
+      link: `<a href="" target="_blank">Managing Deployments Using Kubernetes Engine</a>
+     <a href="" target="_blank">Debugging Apps on Google Kubernetes Engine</a>
+     <a href="" target="_blank">Collect Metrics from Exporters using the Managed Service for Prometheus</a>
+     <a href="" target="_blank">Manage Kubernetes in Google Cloud: Challenge Lab</a>`
+  },
+  },
+
+
+
+  // sb 24
+  {
+    title: "Analyze Images with the Cloud Vision API",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/633",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIojH3bZBGU0VhgsRWySH4hk",
+    credit: "12",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">APIs Explorer: Qwik Start</a>
+     <a href="" target="_blank">Extract, Analyze, and Translate Text from Images with the Cloud ML APIs</a>
+     <a href="" target="_blank">Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API</a>
+     <a href="" target="_blank">Analyze Images with the Cloud Vision API: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb24.png",
+    video: {
+      link: `<a href="" target="_blank">APIs Explorer: Qwik Start</a>
+     <a href="" target="_blank">Extract, Analyze, and Translate Text from Images with the Cloud ML APIs</a>
+     <a href="" target="_blank">Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API</a>
+     <a href="" target="_blank">Analyze Images with the Cloud Vision API: Challenge Lab</a>`
+  },
+  },
+
+
+
+  // sb 25
+  {
+    title: "The Basics of Google Cloud Compute",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/754",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIo5s0VdRt26abOYUXzf6rG9",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Creating a Virtual Machine</a>
+     <a href="" target="_blank">Creating a Persistent Disk</a>
+     <a href="" target="_blank">Hosting a Web App on Google Cloud Using Compute Engine</a>
+     <a href="" target="_blank">The Basics of Google Cloud Compute: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb25.png",
+    video: {
+      link: `<a href="" target="_blank">Creating a Virtual Machine</a>
+     <a href="" target="_blank">Creating a Persistent Disk</a>
+     <a href="" target="_blank">Hosting a Web App on Google Cloud Using Compute Engine</a>
+     <a href="" target="_blank">The Basics of Google Cloud Compute: Challenge Lab</a>`
+  },
+  },
+
+
+
+  // sb 26
+  {
+    title: "Networking Fundamentals on Google Cloud",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/748",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIo5_RRF-MGQOthCJ8cNw6i8",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">VPC Networking Fundamentals</a>
+     <a href="" target="_blank">Set Up Network and HTTP Load Balancers</a>
+     <a href="" target="_blank">Internal Load Balancer</a>
+     <a href="" target="_blank">Networking Fundamentals on Google Cloud: Challenge Lab
+</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb26.png",
+    video: {
+      link: `<a href="" target="_blank">VPC Networking Fundamentals</a>
+     <a href="" target="_blank">Set Up Network and HTTP Load Balancers</a>
+     <a href="" target="_blank">Internal Load Balancer</a>
+     <a href="" target="_blank">Networking Fundamentals on Google Cloud: Challenge Lab
+</a>`
+  },
+  },
+
+
+
+  // sb 27
+  {
+    title: "Protect Sensitive Data with Data Loss Prevention",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/750",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIpXN08hN9yBxuK6GrAbDnqM",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Data Loss Prevention: Qwik Start - JSON</a>
+     <a href="" target="_blank">Redacting Sensitive Data with Cloud Data Loss Prevention</a>
+     <a href="" target="_blank">Creating a De-identified Copy of Data in Cloud Storage</a>
+     <a href="" target="_blank">Protect Sensitive Data with Data Loss Prevention: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb27.png",
+    video: {
+      link: `<a href="" target="_blank">Data Loss Prevention: Qwik Start - JSON</a>
+     <a href="" target="_blank">Redacting Sensitive Data with Cloud Data Loss Prevention</a>
+     <a href="" target="_blank">Creating a De-identified Copy of Data in Cloud Storage</a>
+     <a href="" target="_blank">Protect Sensitive Data with Data Loss Prevention: Challenge Lab</a>`
+  },
+  },
+
+
+  // sb 28
+  {
+    title: "Monitoring in Google Cloud",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/747",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIpwwNxT5WqtP6xY7DBfP8aX",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Cloud Monitoring: Qwik Start</a>
+     <a href="" target="_blank">Monitoring and Logging for Cloud Functions</a>
+     <a href="" target="_blank">Monitor a Compute Engine Virtual Machine: Qwik Start</a>
+     <a href="" target="_blank">Monitoring in Google Cloud: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb27.png",
+    video: {
+      link: `<a href="" target="_blank">Cloud Monitoring: Qwik Start</a>
+     <a href="" target="_blank">Monitoring and Logging for Cloud Functions</a>
+     <a href="" target="_blank">Monitor a Compute Engine Virtual Machine: Qwik Start</a>
+     <a href="" target="_blank">Monitoring in Google Cloud: Challenge Lab</a>`
+  },
+  },
+
+  // sb 29
+  {
+    title: "Secure BigLake Data",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/751",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIqiKFM79QB7CYxSEoE7FK_q",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Cloud IAM: Qwik Start</a>
+     <a href="" target="_blank">Data Catalog: Qwik Start</a>
+     <a href="" target="_blank">BigLake: Qwik Start</a>
+     <a href="" target="_blank">Secure BigLake Data: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb29.png",
+    video: {
+      link: `<a href="" target="_blank">Cloud IAM: Qwik Start</a>
+     <a href="" target="_blank">Data Catalog: Qwik Start</a>
+     <a href="" target="_blank">BigLake: Qwik Start</a>
+     <a href="" target="_blank">Secure BigLake Data: Challenge Lab</a>`
+  },
+  },
+
+
+  // sb 30
+  {
+    title: "Analyze Speech and Language with Google APIs",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/634",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIrv8gr5EY0jVmILgbxoWoMU",
+    credit: "3",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Cloud Natural Language API: Qwik Start</a>
+     <a href="" target="_blank">Speech-to-Text API: Qwik Start</a>
+     <a href="" target="_blank">Entity and Sentiment Analysis with the Natural Language API</a>
+     <a href="" target="_blank">Analyze Speech & Language with Google APIs: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb30.png",
+    video: {
+      link: `<a href="" target="_blank">Cloud Natural Language API: Qwik Start</a>
+     <a href="" target="_blank">Speech-to-Text API: Qwik Start</a>
+     <a href="" target="_blank">Entity and Sentiment Analysis with the Natural Language API</a>
+     <a href="" target="_blank">Analyze Speech & Language with Google APIs: Challenge Lab</a>`
+  },
+  },
+
+
+
+  // sb 31
+  {
+    title: "Create a Secure Data Lake on Cloud Storage",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/704",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIoVxULKNT9feDGuk5oHssAr",
+    credit: "4",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">Cloud IAM: Qwik Start</a>
+     <a href="" target="_blank">Cloud Storage: Qwik Start - Cloud Console</a>
+     <a href="" target="_blank">Dataplex: Qwik Start - Console</a>
+     <a href="" target="_blank">Create a Secure Data Lake on Cloud Storage: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb31.png",
+    video: {
+      link: `<a href="" target="_blank">Cloud IAM: Qwik Start</a>
+     <a href="" target="_blank">Cloud Storage: Qwik Start - Cloud Console</a>
+     <a href="" target="_blank">Dataplex: Qwik Start - Console</a>
+     <a href="" target="_blank">Create a Secure Data Lake on Cloud Storage: Challenge Lab</a>`
+  },
+  },
+
+
+
+  // sb 32
+  {
+    title: "Manage Data Models in Looker",
+    click_1:"Skill badge Link",
+    sb_link:"https://www.cloudskillsboost.google/course_templates/753",
+    click_2:"Playlist Solution Link",
+    yt_link:"https://www.youtube.com/playlist?list=PL5aOhqv5LVIpxoTWts0wG2TCfaH9tc6eA",
+    credit: "3",
+    labs:"4",
+    box1: "absPopup1",
+    lablink: `<a href="" target="_blank">BigQuery: Qwik Start - Console</a>
+     <a href="" target="_blank">Data Catalog: Qwik Start</a>
+     <a href="" target="_blank">BigLake: Qwik Start</a>
+     <a href="" target="_blank">Tag and Discover BigLake Data: Challenge Lab</a>`,
+    box2 : "popup1",
+    image: "assets/images/skill-badge/sb32.png",
+    video: {
+      link: `<a href="" target="_blank">BigQuery: Qwik Start - Console</a>
+     <a href="" target="_blank">Data Catalog: Qwik Start</a>
+     <a href="" target="_blank">BigLake: Qwik Start</a>
+     <a href="" target="_blank">Tag and Discover BigLake Data: Challenge Lab</a>`
+  },
+  },
+
+
 ];
 AOS.init();
 const fillData = () => {
