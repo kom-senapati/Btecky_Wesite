@@ -47,13 +47,13 @@ const arcades = [
     Previewlink: "",
     Githublink: "",
   },
-  // {
-  //   title: "June Trivia Week 4",
-  //   code:"1q-trivia-05224",
-  //   cardImage: "https://i.ibb.co/kB0cbc6/june-week-4.png",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
+  {
+    title: "June Trivia Week 4",
+    code:"1q-trivia-05224",
+    cardImage: "https://i.ibb.co/kB0cbc6/june-week-4.png",
+    Previewlink: "",
+    Githublink: "",
+  },
 ];
 
 // function for rendering arcade cards data
@@ -115,7 +115,7 @@ const experiencecards = document.querySelector(".about_us-cards");
 const exp = [
   {
      title: "Monthly Subscripation Code and link ",
-    desp: "1p-EDUCR-GCCF-AmritaMCABCA2024-60",
+    desp: "1p-EDUCR-GCCF-STUDENTMENTOR-JUN2024-19",
     // need to update new code 
     desp2: "Click the code to copy it. Below, click the button to go to the redemption page.",
     desp3: "Site",
