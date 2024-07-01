@@ -38,6 +38,7 @@ let header = $(`
                 <option value="https://youtube.com/@btecky">Btecky</option>
                 <option value="https://www.youtube.com/@Algorithm-Code">Algorithm</option>
             </select></li>
+  <li class="nav-item nav-item-hover"><a class="nav-link" href="blog.html">Blog</a></li>
 
   
   <li class="nav-item">
