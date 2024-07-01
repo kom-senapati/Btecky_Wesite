@@ -26,9 +26,20 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="about_us.html">About Us</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="achivements.html">Achivement</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="arcade.html">Arcade</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="skill-badge.html">Skill Badge</a></li>
-  <li class="nav-item nav-item-hover"><a class="nav-link" href="https://youtube.com/@btecky" target="_blank">Youtube</a></li>
+   <li class="nav-item nav-item-hover space">
+            <select id="linkDropdown" onchange="navigate()">
+                <option value="index.html">Google Cloud</option>
+                <option value="arcade.html">Arcade</option>
+                <option value="skill-badge.html">Skill Badge</option>
+            </select></li>
+  <li class="nav-item nav-item-hover space">
+            <select id="linkDropdown" onchange="navigate()">
+                <option value="https://youtube.com/@btecky">Youtube</option>
+                <option value="https://youtube.com/@btecky">Btecky</option>
+                <option value="https://www.youtube.com/@Algorithm-Code">Algorithm</option>
+            </select></li>
+
+  
   <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
