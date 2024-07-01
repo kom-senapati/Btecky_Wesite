@@ -9,8 +9,8 @@ const exp = [
     cardImage: "assets/images/Blog/Blog.png",
     topic:"Free Courses & Certificate For Student",
     date:"01-07-2024",
-    desp: "Embarking on a new learning journey can be exciting, especially when you have access to high-quality, free courses. One platform offers a variety of free courses for beginners, complete with certificates and sometimes even additional goodies. These courses cover diverse topics such as programming, data science, business management, and creative arts, providing foundational knowledge, practical skills, and industry-recognized certifications to boost your career or explore new interests.",
-    desp2: "Receiving a certificate upon course completion not only validates your newly acquired skills but also enhances your resume and LinkedIn profile. The platform often collaborates with prestigious universities and organizations, offering extra perks like exclusive webinars, downloadable resources, and even tangible goodies such as merchandise or discounts on advanced programs.",
+    desp: "Embarking on a new learning journey can be exciting, especially when you have access to high-quality, free courses. One platform offers a variety of free courses for beginners, complete with certificates and sometimes even additional goodies. These courses cover diverse topics such as programming, data science, and providing foundational knowledge, practical skills, and industry-recognized certifications to boost your career.",
+    desp2: "",
     desp3: "These free courses also provide an excellent opportunity to for you guys.\nLink To Video: https://youtu.be/7JKSrp80TFY \nLink To Event Website: https://letsupgrade.in/programs#events",
   }
 ];
