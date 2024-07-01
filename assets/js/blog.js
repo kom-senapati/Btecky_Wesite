@@ -15,12 +15,8 @@ const exp = [
     desp2: "",
     desp3: "These free courses also provide an excellent opportunity for you guys.\nLink To Video: <a href=\"https://youtu.be/7JKSrp80TFY\" target=\"_blank\">https://youtu.be/7JKSrp80TFY</a><br>Link To Event Website: <a href=\"https://letsupgrade.in/programs#events\" target=\"_blank\">https://letsupgrade.in/programs#events</a>",
   }
-];
 
-
-// Blog 2:
-const exp = [
-  {
+    {
     title: "Google Innovators Program 2024",
     cardImage: "assets/images/Blog/Thumbnail.png",
     topic:"Google Innovators Scholarship for Google Certificate",
@@ -30,6 +26,12 @@ const exp = [
     desp3: "Link To Video: <a href=\"https://youtu.be/SP20o2NLbD4\" target=\"_blank\">https://youtu.be/SP20o2NLbD4/a><br>Link To Event Website: <a href=\"https://cloud.google.com/innovators?hl=en\" target=\"_blank\">https://cloud.google.com/innovators?hl=en</a>",
   }
 ];
+
+
+// // Blog 2:
+// const exp = [
+
+// ];
 
 
 const showCards2 = () => {
