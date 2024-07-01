@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".about_us-cards");
 const exp = [
   {
      title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
-    cardImage: "assets/images/arcade/Blog/Blog.png",
+    cardImage: "assets/images/Blog/Blog.png",
     topic:"Free Courses & Certificate For Student",
     date:"01-07-2024",
     desp: "Embarking on a new learning journey can be exciting, especially when you have access to high-quality, free courses. One platform offers a variety of free courses for beginners, complete with certificates and sometimes even additional goodies. These courses cover diverse topics such as programming, data science, business management, and creative arts, providing foundational knowledge, practical skills, and industry-recognized certifications to boost your career or explore new interests.",
