@@ -4,7 +4,6 @@ AOS.init();
 
 const experiencecards = document.querySelector(".about_us-cards");
 
-//Blog 1:
 const exp = [
   // blog 2
    {
