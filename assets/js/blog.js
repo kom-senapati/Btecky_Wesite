@@ -6,6 +6,17 @@ const experiencecards = document.querySelector(".about_us-cards");
 
 //Blog 1:
 const exp = [
+  // blog 2
+   {
+    title: "Google Innovators Program 2024",
+    cardImage: "assets/images/Blog/Thumbnail.png",
+    topic:"Google Innovators Scholarship for Google Certificate",
+    date:"01-07-2024",
+    desp: "The Google Innovators Scholarship for Google Certificate is a remarkable opportunity for individuals looking to enhance their skills with industry-recognized Google certifications. This scholarship offers a 100% free certification voucher, enabling learners to access high-quality training programs at no cost. Whether you're a beginner or looking to advance your expertise, this scholarship covers a range of courses that equip you with practical skills and knowledge required in today's tech-driven world. Don't miss out on this chance to accelerate your career growth with a prestigious Google Certificate. Apply now and take the first step towards achieving your professional goals.",
+    desp2: "",
+    desp3: "Link To Video: <a href=\"https://youtu.be/SP20o2NLbD4\" target=\"_blank\">https://youtu.be/SP20o2NLbD4/a><br>Link To Event Website: <a href=\"https://cloud.google.com/innovators?hl=en\" target=\"_blank\">https://cloud.google.com/innovators?hl=en</a>",
+  },
+// blog 1
   {
     title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
     cardImage: "assets/images/Blog/Blog.png",
@@ -18,18 +29,7 @@ const exp = [
 ];
 
 
-// // // Blog 2:
-//  const exp = [
-//     {
-//     title: "Google Innovators Program 2024",
-//     cardImage: "assets/images/Blog/Thumbnail.png",
-//     topic:"Google Innovators Scholarship for Google Certificate",
-//     date:"01-07-2024",
-//     desp: "The Google Innovators Scholarship for Google Certificate is a remarkable opportunity for individuals looking to enhance their skills with industry-recognized Google certifications. This scholarship offers a 100% free certification voucher, enabling learners to access high-quality training programs at no cost. Whether you're a beginner or looking to advance your expertise, this scholarship covers a range of courses that equip you with practical skills and knowledge required in today's tech-driven world. Don't miss out on this chance to accelerate your career growth with a prestigious Google Certificate. Apply now and take the first step towards achieving your professional goals.",
-//     desp2: "",
-//     desp3: "Link To Video: <a href=\"https://youtu.be/SP20o2NLbD4\" target=\"_blank\">https://youtu.be/SP20o2NLbD4/a><br>Link To Event Website: <a href=\"https://cloud.google.com/innovators?hl=en\" target=\"_blank\">https://cloud.google.com/innovators?hl=en</a>",
-//   }
-// ];
+
 
 
 const showCards2 = () => {
