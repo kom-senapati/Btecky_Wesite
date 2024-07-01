@@ -6,12 +6,12 @@ const experiencecards = document.querySelector(".about_us-cards");
 const exp = [
   {
      title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
-    cardImage: "assets/images/arcade/lv1.png",
-    topic:"Topic",
-    date:"date",
-    desp: "Welcome to the chan of you amazing individuals.to the chan of you amazing individualsto the chan of you amazing individualsto the chan of you amazing individuals",
-    desp2: "On thih to the chan of you amazing individualsmore!",
-    desp3: "Myorld ofto the chan of you amazing individuals technology.",
+    cardImage: "assets/images/arcade/Blog/Blog.png",
+    topic:"Free Courses & Certificate For Student",
+    date:"01-07-2024",
+    desp: "Embarking on a new learning journey can be exciting, especially when you have access to high-quality, free courses. One platform offers a variety of free courses for beginners, complete with certificates and sometimes even additional goodies. These courses cover diverse topics such as programming, data science, business management, and creative arts, providing foundational knowledge, practical skills, and industry-recognized certifications to boost your career or explore new interests.",
+    desp2: "Receiving a certificate upon course completion not only validates your newly acquired skills but also enhances your resume and LinkedIn profile. The platform often collaborates with prestigious universities and organizations, offering extra perks like exclusive webinars, downloadable resources, and even tangible goodies such as merchandise or discounts on advanced programs.",
+    desp3: "These free courses also provide an excellent opportunity to join a community of learners. Engaging with fellow students, participating in discussion forums, and accessing instructor support enriches your learning experience. Whether you're a student, a professional looking to upskill, or someone exploring a new hobby, these courses offer a flexible and valuable way to achieve your goals without financial strain. To get started, check out this video [link to video] and begin your learning journey today.",
   }
 ];
 
