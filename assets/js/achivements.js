@@ -11,7 +11,7 @@ const moocscards = [
     title: "Scaler",
   },
   {
-    title: "Preplef",
+    title: "Prepleaf",
   },
   {
     title: "Spheorn",
@@ -20,7 +20,7 @@ const moocscards = [
     title: "Hack 2 Skill ",
   },
   {
-    title: "Greek For Greeks",
+    title: "Geek For Geeks",
   },
   {
     title: "Level Up",
