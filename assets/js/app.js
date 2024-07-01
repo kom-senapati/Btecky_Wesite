@@ -504,3 +504,15 @@ $(function submitAnimation() {
     }
   });
 });
+
+
+
+function navigate() {
+  var select = document.getElementById("linkDropdown");
+  var url = select.value;
+  if (url) {
+      window.location.href = url;
+  }
+}
+
+
