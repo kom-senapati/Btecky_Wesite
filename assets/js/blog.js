@@ -7,7 +7,7 @@ const experiencecards = document.querySelector(".about_us-cards");
 //Blog 1:
 const exp = [
   {
-     title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
+    title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
     cardImage: "assets/images/Blog/Blog.png",
     topic:"Free Courses & Certificate For Student",
     date:"01-07-2024",
