@@ -5,7 +5,7 @@ AOS.init();
 const experiencecards = document.querySelector(".about_us-cards");
 const exp = [
   {
-     title: "Title",
+     title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
     cardImage: "assets/images/arcade/lv1.png",
     topic:"Topic",
     date:"date",
