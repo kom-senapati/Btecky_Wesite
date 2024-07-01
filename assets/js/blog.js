@@ -5,6 +5,16 @@ AOS.init();
 const experiencecards = document.querySelector(".about_us-cards");
 
 const exp = [
+  // blog 1
+  {
+    title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
+    cardImage: "assets/images/Blog/Blog.png",
+    topic:"Free Courses & Certificate For Student",
+    date:"01-07-2024",
+    desp: "Embarking on a new learning journey can be exciting, especially when you have access to high-quality, free courses. One platform offers a variety of free courses for beginners, complete with certificates and sometimes even additional goodies. These courses cover diverse topics such as programming, data science, and providing foundational knowledge, practical skills, and industry-recognized certifications to boost your career.",
+    desp2: "",
+    desp3: "These free courses also provide an excellent opportunity for you guys.\nLink To Video: <a href=\"https://youtu.be/7JKSrp80TFY\" target=\"_blank\">https://youtu.be/7JKSrp80TFY</a><br>Link To Event Website: <a href=\"https://letsupgrade.in/programs#events\" target=\"_blank\">https://letsupgrade.in/programs#events</a>",
+  },
   // blog 2
    {
     title: "Google Innovators Program 2024",
@@ -15,16 +25,6 @@ const exp = [
     desp2: "",
     desp3: "Link To Video: <a href=\"https://youtu.be/SP20o2NLbD4\" target=\"_blank\">https://youtu.be/SP20o2NLbD4/a><br>Link To Event Website: <a href=\"https://cloud.google.com/innovators?hl=en\" target=\"_blank\">https://cloud.google.com/innovators?hl=en</a>",
   },
-// blog 1
-  {
-    title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
-    cardImage: "assets/images/Blog/Blog.png",
-    topic:"Free Courses & Certificate For Student",
-    date:"01-07-2024",
-    desp: "Embarking on a new learning journey can be exciting, especially when you have access to high-quality, free courses. One platform offers a variety of free courses for beginners, complete with certificates and sometimes even additional goodies. These courses cover diverse topics such as programming, data science, and providing foundational knowledge, practical skills, and industry-recognized certifications to boost your career.",
-    desp2: "",
-    desp3: "These free courses also provide an excellent opportunity for you guys.\nLink To Video: <a href=\"https://youtu.be/7JKSrp80TFY\" target=\"_blank\">https://youtu.be/7JKSrp80TFY</a><br>Link To Event Website: <a href=\"https://letsupgrade.in/programs#events\" target=\"_blank\">https://letsupgrade.in/programs#events</a>",
-  }
 ];
 
 
