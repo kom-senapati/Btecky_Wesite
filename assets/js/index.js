@@ -6,9 +6,9 @@ const exp = [
   {
      title: "Software Development Intern",
     cardImage: "assets/images/experience-page/flipkart.jpg",
-    desp: "",
-    desp2: "",
-    desp3: ""
+    desp: "Welcome to Btecky Website! Here, you'll find a wealth of information about a wide variety of tech events, interesting blogs, and details about Google Cloud Arcade events and the facilitator program. We offer a free point calculator to help you track your Arcade points, along with updates on tech events and other exciting coding content.",
+    desp2: "Our YouTube channels, '[Btecky]' and '[Algorithm & Code]', boast a community of over 50,000 students and developers. Join our official group to stay connected and benefit from the resources we share.",
+    desp3: "We are proud to have ranked 10th in the Hacksquad event and 1st in the Google Crowdsource event. As official Google Cloud facilitators, we have guided more than 1000 students in previous seasons and continue to do so. Our website is a trusted source for the best and most accurate information. We are a growing community dedicated to helping students who can't afford expensive courses by providing free certification opportunities and other valuable resources.<br>We're here to help you reach your dreams. Join us and explore the exciting world of technology!"
   }
 ];
 
