@@ -13,9 +13,9 @@ const exp = [
     date:"03-07-2024",
     desp: "Get ready for the Geeks for Geeks Coding Contest 2024! This is your chance to demonstrate your coding expertise and compete with top programmers globally. The contest features a variety of challenging problems designed to test your skills and creativity. Whether you're a beginner or an experienced coder, there’s something for everyone. Exciting prizes, certificates, and global recognition await the best performers. Participate to enhance your problem-solving abilities, learn new techniques, and connect with a community of passionate coders. Don't miss this opportunity to shine and advance your coding career! Mark your calendars and start preparing now!",
     desp2: "",
-   Link To Video: <a href="https://youtu.be/jMj5_G9y4yg" target="_blank">https://youtu.be/jMj5_G9y4yg</a><br>
-     Link To Event Website: <a href="https://practice.geeksforgeeks.org/contest/gfg-weekly-162-rated-contest?utm_source=mailer&utm_medium=codingcontest_162&utm_campaign=weeklycodingcontest" target="_blank">https://practice.geeksforgeeks.org/contest/gfg-weekly-162-rated-contest?utm_source=mailer&utm_medium=codingcontest_162&utm_campaign=weeklycodingcontest</a>,  },
-  
+    desp3: "Link To Video: <a href=\"https://youtu.be/SP20o2NLbD4\" target=\"_blank\">https://youtu.be/SP20o2NLbD4</a><br>Link To Event Website: <a href=\"https://cloud.google.com/innovators?hl=en\" target=\"_blank\">https://cloud.google.com/innovators?hl=en</a>",
+      },
+
   // blog 1
   {
     title: "10+ Free Courses For Beginner With Free Certificate & Goodies",
@@ -26,6 +26,7 @@ const exp = [
     desp2: "",
     desp3: "These free courses also provide an excellent opportunity for you guys.\nLink To Video: <a href=\"https://youtu.be/7JKSrp80TFY\" target=\"_blank\">https://youtu.be/7JKSrp80TFY</a><br>Link To Event Website: <a href=\"https://letsupgrade.in/programs#events\" target=\"_blank\">https://letsupgrade.in/programs#events</a>",
   },
+      
   // blog 2
    {
     title: "Google Innovators Program 2024",
