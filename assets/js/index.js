@@ -6,8 +6,8 @@ const exp = [
   {
      title: "Software Development Intern",
     cardImage: "assets/images/experience-page/flipkart.jpg",
-    desp: "Welcome to the channel! I'm Lavish, a computer science student pursuing my B-Tech degree. I'm incredibly passionate about technology and I'm thrilled to share my knowledge with all of you amazing individuals.",
-    desp2: "On this channel, you can expect a wide array of educational videos covering topics such as Google Cloud and the Qwiklab program, as well as insights into various other events. I'll also be sharing programming videos, tips and tricks, interviews, internships, and much more!",
+    desp: "I am Lavish Sheth, an ex-intern at Impetus and currently working as a System Engineer. Apart from this, I am a content creator and the founder of @btecky and @algorithm&code. I am also a Google Cloud Facilitator and have helped more than 1000 students across the globe step into the world of Google Cloud. ",
+    desp2: "In addition to this, I teach coding and other technical stuff, empowering learners to achieve their dreams in the tech industry.",
     desp3: ""
   }
 ];
