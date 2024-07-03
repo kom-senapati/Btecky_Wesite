@@ -4,7 +4,7 @@
 const experiencecards = document.querySelector(".about_us-cards");
 const exp = [
   {
-    // title: "Btecky Webiste",
+    title: "Software Development Intern",
     // cardImage: "assets/images/experience-page/flipkart.jpg",
     // desp: "Welcome to Btecky Website! Here, you'll find a wealth of information about a wide variety of tech events, interesting blogs, and details about Google Cloud Arcade events and the facilitator program. We offer a free point calculator to help you track your Arcade points, along with updates on tech events and other exciting coding content.",
     // desp2: "Our YouTube channels, '[Btecky]' and '[Algorithm & Code]', boast a community of over 50,000 students and developers. Join our official group to stay connected and benefit from the resources we share.",
