@@ -24,8 +24,6 @@ let header = $(`
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="about_us.html">About Us</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="achivements.html">Achivement</a></li>
    <li class="nav-item nav-item-hover space">
             <select id="linkDropdown" onchange="navigate()">
                 <option value="index.html">Google Cloud</option>
@@ -173,6 +171,7 @@ let footer = $(`
                      .catch(error => console.error('Error!', error.message))
                  })
                 </script>
+                
 
               </div>
             </div>
@@ -283,6 +282,20 @@ let footer = $(`
     
     </div>
     </div>
+    <div class="d-flex justify-content-center mt-4">
+          <ul class="justify-content-center mb-0" style="text-align: center; list-style: none; " >
+            <li><a href="index.html" style="color:#fff;">Home</a></li>
+            <a href="arcade.html" style="color:#fff;">Arcade</a>      |      
+            <a href="skill-badge.html" style="color:#fff;">Skill Badge</a>      |      
+            <a href="labs-solution.html" style="color:#fff;">Labs Solution</a>      |      
+            <a href="blog.html" style="color:#fff;">Blogs</a>
+            <li><a href="https://www.youtube.com/@btecky" style="color:#fff;">Btecky</a>      |      
+            <a href="https://www.youtube.com/@Algorithm-Code" style="color:#fff;">Algorithm & Code</a></li>
+            <a href="privacy-policy.html" style="color:#fff;">Privacy Policy</a>
+
+          </ul>
+        </div>
+        <br>
 </footer>
 `);
 
