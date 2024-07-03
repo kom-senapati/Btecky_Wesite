@@ -162,7 +162,7 @@ const mentor = [
     title: "Lavish Sheth",
     subtitle: "Owner",
     image: "assets/images/experience-page/lavish.png",
-    desp: "I am Lavish Sheth, an ex-intern at Impetus and currently a System Engineer. I'm a content creator and founder of @btecky and @algorithm&code. As a Google Cloud Facilitator, I've helped over 1000 students globally. I also teach coding and other technical skills, empowering learners to achieve their dreams in the tech industry".    
+    desp: "I am Lavish Sheth, an ex-intern at Impetus and currently a System Engineer. I'm a content creator and founder of @btecky and @algorithm&code. As a Google Cloud Facilitator, I've helped over 1000 students globally. I also teach coding and other technical skills, empowering learners to achieve their dreams in the tech industry.",    
     href: "https://www.linkedin.com/in/lavish-sheth-163844215/",
   },
   {
