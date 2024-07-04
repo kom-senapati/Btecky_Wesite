@@ -5,6 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".about_us-cards");
 
 const exp = [
+ // blog 4
+     {
+    title: "Code Cubicle 2.0",
+    cardImage: "assets/images/Blog/code.png",
+    topic:"Visit MicroSoft Office",
+    date:"05-07-2024",
+    desp: "🚀 Join the ultimate hackathon by Geek Room and dive into innovation and creativity.<br>💰 Prize Pool:<br>Worth INR 30,00,000+ <br>Cash Prize worth INR 40,000+ <br>🎯 Activities:<br>Live project presentations, pitching sessions, and fun games with exciting prizes!<br>🎁 Perks:<br>Free swags, networking with industry experts, awesome goodies, complimentary accommodation, and meals.<br>🌈 Break barriers and pioneer inventive solutions. Join us at Code Cubicle 2.0 for an unforgettable tech adventure!",
+    desp2: "",
+    desp3: "Link To Video: <a href=\"https://youtu.be/jMj5_G9y4yg\" target=\"_blank\">https://youtu.be/jMj5_G9y4yg</a><br>Link To Event Website: <a href=\"https://shorturl.at/qLXX2\" target=\"_blank\">https://shorturl.at/qLXX2</a>",
+      },
+  
   // blog 3
      {
     title: "Geeks For Geeks Coding Program 2024",
