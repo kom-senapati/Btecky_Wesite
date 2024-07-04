@@ -277,7 +277,7 @@ let footer = $(`
     </div>
     </div>
     <div class="d-flex justify-content-center mt-4">
-          <ul class="justify-content-center mb-0" style="text-align: center; list-style: none; " >
+          <ul class="justify-content-center mb-0" style="text-align: center; list-style: none; color: #FFFFFF" " >
             <li><a href="index.html" style="color:#fff;">Home</a></li>
             <a href="arcade.html" style="color:#fff;">Arcade</a>      |      
             <a href="skill-badge.html" style="color:#fff;">Skill Badge</a>      |      
