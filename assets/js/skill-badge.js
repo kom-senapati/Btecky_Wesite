@@ -921,3 +921,54 @@ const fillData = () => {
 };
 
 document.addEventListener("DOMContentLoaded", fillData);
+
+
+
+
+const experiencecards = document.querySelector(".about_skillbadge-cards");
+const exp = [
+  {
+     title: "",
+    desp: "",
+    desp2: "",
+    desp3: "",
+  }
+];
+
+const showCards2 = () => {
+  let output = "";
+  exp.forEach(
+    ({ title, desp , desp2 , desp3}) =>
+      (output += `        
+        <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+          <div class="card card1">
+            <article class="card-body">
+              <header>
+                <div class="title">
+                  <h3>${title}</h3>
+                </div>
+            <ol>
+            <div class="desptext_1">
+              ${desp}
+            </div>
+            </ol>
+            <ol>
+            <div class="desptext_1">
+              ${desp2}
+            </div>
+            </ol>
+            <ol>
+            <div class="desptext_1">
+              ${desp3}
+            </div>
+            </ol>
+          </header>
+        </article>
+      </div>
+    </div>
+      `)
+  );
+  experiencecards.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards2);
+
