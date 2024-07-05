@@ -1810,7 +1810,7 @@ ul ol {
 @media only screen and (min-width: 768px) {
   .card1_1 {
     flex-direction: row;
-    max-height: 900px;
+     max-height: 900px;
   }
 
   .card1_1 h3 {
