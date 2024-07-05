@@ -441,7 +441,7 @@ const showCards3 = () => {
     ({ title, desp , desp2 , desp3}) =>
       (output += `        
         <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
-      <div class="card_info card1">
+      <div class="card_info card1_1">
         <article class="card-body">
           <header>
            <div class="title">
