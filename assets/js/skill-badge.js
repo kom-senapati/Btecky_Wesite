@@ -942,7 +942,7 @@ const exp = [
     {
     title: "<b>Ready to Level Up?</b>",
     desp: "Join our thriving community of cloud enthusiasts and embark on your Google Cloud Arcade adventure today! With our curated badges, insightful solutions, and valuable resources, you'll transform badge-winning into a transformative learning experience.",
-    desp2: "<b>BLet the Games Begin!</b>",
+    desp2: "<b>Let the Games Begin!</b>",
     desp3: "",
   },
 ];
