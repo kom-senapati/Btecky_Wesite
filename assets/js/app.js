@@ -286,7 +286,7 @@ let footer = $(`
             <li><a href="https://www.youtube.com/@btecky" style="color:#fff;">Btecky</a>      |      
             <a href="https://www.youtube.com/@Algorithm-Code" style="color:#fff;">Algorithm & Code</a></li>
             <a href="privacy-policy.html" style="color:#fff;">Privacy Policy</a>      |      
-            <a href="disclaimer.html" style="color:#fff;">Disclaimerr</a>
+            <a href="disclaimer.html" style="color:#fff;">Disclaimer</a>
 
           </ul>
         </div>
