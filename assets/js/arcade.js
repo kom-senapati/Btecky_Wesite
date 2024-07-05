@@ -414,10 +414,24 @@ document.addEventListener('keydown', function(e) {
 const informationcards = document.querySelector(".about_arcade-cards");
 const info = [
   {
-     title: "",
-    desp: "",
-    desp2: "",
+    title: "Power Up Your Cloud Skills with the Google Cloud Arcade!",
+    desp: "Looking for a fun and engaging way to level up your cloud expertise? Dive into the Google Cloud Arcade, a free, gamified learning platform designed to propel you towards cloud mastery!<br>The Arcade offers a vibrant world of quests, where you'll conquer hands-on labs featuring Google Cloud's most sought-after technologies like BigQuery, Firebase, and Kubernetes. Each challenge is meticulously crafted to not only test your knowledge but also build practical skills applicable to real-world scenarios.",
+    desp2: "Here's why the Google Cloud Arcade is your ultimate playground for cloud learning:<br>Play Your Way to Expertise: <br>Choose from a variety of themed games, each brimming with exciting labs tailored to different skill levels. Whether you're a cloud novice or a seasoned pro, the Arcade caters to your learning jounery.<br>Earn Bragging Rights:<br> Compete with fellow cloud enthusiasts and conquer leaderboards. Rack up points, collect badges that validate your prowess, and showcase your cloud achievements to the world!ourney.<br>Unlock Valuable Rewards: <br>As you progress through the Arcade, you'll accumulate points that can be redeemed for enticing prizes. The spoils of victory await the most dedicated cloud champions!",
     desp3: "",
+  }
+
+    {
+    title: "The Google Cloud Arcade is your one-stop shop for:",
+    desp: "Transformative Learning: Go beyond theory and dive headfirst into practical exercises that solidify your understanding of Google Cloud's vast potential.",
+    desp2: "Boosted Confidence: With each challenge overcome, your confidence in your cloud abilities will soar, empowering you to tackle complex projects with ease.",
+    desp3: "A Thriving Community: Connect with a network of passionate cloud learners, share experiences, and forge valuable connections within the vibrant Google Cloud community.",
+  }
+
+    {
+    title: "Ready to embark on your cloud gaming odyssey?",
+    desp: "Join the Google Cloud Arcade today and transform your learning into an unforgettable adventure!",
+    desp2: "",
+    desp3: "", 
   }
 ];
 
