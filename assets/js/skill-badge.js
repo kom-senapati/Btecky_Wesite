@@ -928,11 +928,23 @@ document.addEventListener("DOMContentLoaded", fillData);
 const experiencecards = document.querySelector(".about_skillbadge-cards");
 const exp = [
   {
-     title: "",
-    desp: "",
-    desp2: "",
+    title: "<b>Level Up Your Cloud Game: The Ultimate Google Cloud Skill Badge Destination!</b>",
+    desp: "Welcome to your one-stop shop for conquering the Google Cloud Arcade and becoming a cloud champion! Here, you'll find a treasure trove of amazing Google Cloud Skill Badges, meticulously curated to propel you towards cloud mastery.<br>But we go beyond just badges! We understand that the true path to expertise lies in practical application. That's why, alongside each badge, you'll discover a treasure chest of resources to fuel your arcade journey:",
+    desp2: "<b>Comprehensive Solutions:</b> Dive deep into expertly crafted solutions hosted on GitHub. These gems provide clear, step-by-step guidance, ensuring you not only conquer the badge challenges but also solidify your understanding.<br>",
+    desp3: "<b>Invaluable Resources:</b> Unearth a wealth of supplementary materials, including tutorials, documentation, and community discussions. These resources offer additional insights and perspectives to enrich your learning experience.",
+  },
+    {
+    title: "<b>Why Choose Us?</b>",
+    desp: "<b>Badges Galore:</b>Explore a vast collection of Google Cloud Skill Badges, categorized to suit your specific needs and skill level. Whether you're a cloud novice or a seasoned pro, we have the perfect badge to challenge and empower you.",
+    desp2: "<b>Beyond the Badge: </b>We don't just point you towards badges; we equip you for success. With our solutions and resources, you'll gain the practical skills and knowledge to put your cloud expertise into action. ",
+    desp3: "<b>Become a Cloud Master:</b>Our comprehensive approach to badge exploration empowers you to graduate from the arcade as a Google Cloud pro, ready to tackle any cloud challenge with confidence.",
+  },
+    {
+    title: "<b>Ready to Level Up?</b>",
+    desp: "Join our thriving community of cloud enthusiasts and embark on your Google Cloud Arcade adventure today! With our curated badges, insightful solutions, and valuable resources, you'll transform badge-winning into a transformative learning experience.",
+    desp2: "<b>BLet the Games Begin!</b>",
     desp3: "",
-  }
+  },
 ];
 
 const showCards2 = () => {
