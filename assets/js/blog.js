@@ -5,6 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".about_us-cards");
 
 const exp = [
+ // blog 5
+     {
+    title: "Goldman Sachs Opportunity",
+    cardImage: "assets/images/Blog/job.png",
+    topic:"Internship + Full Time Opportunity",
+    date:"06-07-2024",
+    desp: "<b>Exciting Career Opportunity with Goldman Sachs for 2024, 2025, and 2026 Graduates!</b><br>Goldman Sachs is offering a unique program for 2024, 2025, and 2026 graduates that combines an enriching internship experience with the potential for full-time employment.<br><b>Program Highlights:</b>Gain hands-on experience in various domains like investment banking, asset management, and technology through a comprehensive internship. Successful interns will be considered for full-time positions, with opportunities to connect with industry leaders and benefit from mentorship programs. Participate in cutting-edge learning through workshops, seminars, and training sessions in a diverse workplace that values unique perspectives and encourages innovation.",
+    desp2: "<br><b>Who Should Apply?</b><br>Open to students graduating in 2024, 2025, and 2026 who are ambitious and eager to make a mark in the financial world.",
+    desp3: "Link To Video: <a href=\"https://youtu.be/RZjz6nAQdKQ\" target=\"_blank\">https://youtu.be/RZjz6nAQdKQ</a><br>Link To Event Website: <a href=\"https://www.goldmansachs.com/careers/students/programs/index.html\" target=\"_blank\">https://www.goldmansachs.com/careers/students/programs/index.html</a>",
+      },
+ 
  // blog 4
      {
     title: "Code Cubicle 2.0",
