@@ -13,7 +13,7 @@ const exp = [
     date:"07-07-2024",
     desp: "<b>Get up to speed on cloud computing and Google Cloud Platform (GCP) in just one day. Enjoy interactive sessions, expert tips, and career hacks while meeting fellow cloud enthusiasts and accessing valuable student resources.",
     desp2: "<br><b>Level Up Your Cloud Skills:</b><br>Cloud Computing Demystified: Discover how the cloud enhances your business.<br>GCP: Your Cloud Toolkit: Explore core services like compute, storage, and databases.<br>Security Like a Boss: Learn to secure your cloud environment.<br>Networking Made Easy: Navigate the cloud's digital highways.<br>Student Launchpad: Access exclusive resources to kickstart your cloud career.<br><br><b>Ready to take your business to the cloud? See you at Cloud Yatra!<br>",
-    desp3: "Link To Video: <a href=\"https://youtu.be/vc6ngQpBB5U" target=\"_blank\">https://youtu.be/vc6ngQpBB5U</a><br>Link To Event Website: <a href=\"https://shorturl.at/rJuHJ\" target=\"_blank\">https://shorturl.at/rJuHJ</a>",
+    desp3: "Link To Video: <a href=\"https://youtu.be/vc6ngQpBB5U" target=\"_blank\">https://youtu.be/RZjz6nAQdKQ</a><br>Link To Event Website: <a href=\"https://shorturl.at/rJuHJ\" target=\"_blank\">https://shorturl.at/rJuHJ</a>",
       },
  
  // blog 5
