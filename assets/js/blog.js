@@ -5,6 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".about_us-cards");
 
 const exp = [
+  // blog 7
+     {
+    title: "GOOGLE ON CAMPUS 2024",
+    cardImage: "assets/images/Blog/google1.png",
+    topic:"Software Engineering Opportunities at Google India",
+    date:"08-07-2024",
+    desp: "<b>Welcome to the session on Software Engineering Opportunities at Google India!</b> <br>We are excited to have you join us for this insightful session. Today, we have a stellar lineup of speakers:<br><b>Aditi Bakshi</b> from the Talent Engagement Team<b>Rashma Raveendra</b> from Google Cloud<br><b>Rakesh Sinha</b> from Google Search<br><b>Taruni N</b>, a former Google Intern turned Software Engineer<br> They will be sharing insights about Google’s culture, Google for India, our hiring philosophy, and the numerous opportunities you can leverage to become a part of Google. Stay tuned to find out more!",
+    desp2: "<br><b>Highlights:</b><br> Google's Culture: Discover what makes Google a unique workplace.<br> <br>Google for India: Learn about Google's initiatives and impact in India. <br>Hiring Philosophy: Understand what Google looks for in potential hires.<br>Opportunities: Explore student programs, events, scholarships, and more.<br>",
+    desp3: "Link To Video: <a href=\"https://youtu.be/TsX9UJnY3vs\" target=\"_blank\">https://youtu.be/TsX9UJnY3vs</a><br>Link To Event Website: <a href=\"https://shorturl.at/QhD5v\" target=\"_blank\">https://shorturl.at/QhD5v</a>",
+      },
+ 
  // blog 6
      {
     title: "Cloud Yatra 2024",
