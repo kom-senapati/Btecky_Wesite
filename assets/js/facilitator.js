@@ -1,9 +1,9 @@
 const informationcards = document.querySelector(".about_previews_swags-cards");
 const info = [
   {
-    title: "title",
-    desp: "desp 1 max 40 work",
-    desp2: "max 20 word",
+    title: "<b>Google Cloud Qwiklabs Arcade Facilitator Program 2024</b>",
+    desp: "Unleash your inner cloud champion! The Google Cloud Qwiklabs Arcade offers gamified learning with hands-on labs and rewards. Become an Arcade Facilitator, guide others, and earn points for swag or charity. Join anytime – the fun never stops!",
+    desp2: "Level up your cloud skills with engaging games and labs. Earn badges and become an Arcade Facilitator to empower others.",
   }
 ];
 
