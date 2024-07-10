@@ -308,10 +308,10 @@ function copyToClipboard(text) {
       alert.style.color = "#CC313D"; // Red text color
       alert.style.borderRadius = "10px"; // Rounded corners
       alert.style.padding = "10px 20px"; // Add padding for better readability
-      alert.style.fontWeight = "bold";// Make the text bold
+      alert.style.fontWeight = "bold"; // Make the text bold
       alert.style.fontSize = "25px"; // Change text size (adjust as needed)
       alert.style.fontFamily = "Arial, sans-serif"; // Change font type (adjust as needed)
-      
+      alert.style.zIndex = "9999"; // Ensure it is on the top layer
 
       // Position the alert at the middle bottom of the screen
       const body = document.body;
