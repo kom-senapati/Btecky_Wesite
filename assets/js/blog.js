@@ -5,6 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".about_us-cards");
 
 const exp = [
+    // blog 8
+     {
+    title: "Flipkart GRiD 6.0",
+    cardImage: "assets/images/Blog/flipkart.png",
+    topic:"Software Engineering & Internship Opportunities At Flipkart",
+    date:"10-07-2024",
+    desp: "<b>Organizer: Flipkart <br>Location: Online<br> Overview:<br>Flipkart GRiD 6.0 is the sixth edition of Flipkart’s flagship engineering campus challenge. It offers engineering students a chance to showcase their technical skills by solving real-world E-Commerce problems.<br>Eligibility:<br>Open to B.Tech/B.E./M.Tech/M.S students (Batch 2025-2028) from any engineering specialization.<br>Teams of 1-3 members.<br>Cross-specialization and cross-campus teams allowed.",
+    desp2: "<br>Stages:<br>E-Commerce & Tech Quiz: Online quiz on E-Commerce trivia and tech fundamentals.<br>Submission Round: Idea submission with a video presentation.<br>National Finale: Finalists present their solutions to Flipkart domain experts.<br><br>Prizes:<br>Winners: EGVs worth INR 1,00,000, PPIs for tech roles.<br>First Runners-Up: EGVs worth INR 75,000.<br>Finalists: Certificates, PPIs with CTCs of INR 32 LPA, and internship stipends starting from INR 1,00,000.<br><br>Career Opportunities:Top-performing teams get pre-placement interviews for internships and full-time roles at Flipkart.<br><br><b>Ready to enter the GRiD?</b>",
+    desp3: "Link To Video: <a href=\"https://youtu.be/TsX9UJnY3vs\" target=\"_blank\">https://youtu.be/TsX9UJnY3vs</a><br>Link To Event Website: <a href=\"https://shorturl.at/3xd6J\" target=\"_blank\">https://shorturl.at/3xd6J</a>",
+      },
+  
   // blog 7
      {
     title: "GOOGLE ON CAMPUS 2024",
