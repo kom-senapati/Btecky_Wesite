@@ -23,16 +23,16 @@ let header = $(`
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="index">Home</a></li>
    <li class="nav-item nav-item-hover space">
             <select id="linkDropdown" onchange="navigate()">
-                <option value="index.html">Google Cloud</option>
+                <option value="index">Google Cloud</option>
                 <option value="facilitator">Facilitator</option>
-                <option value="arcade.html">Arcade</option>
-                <option value="labs-solution.html">Labs Solution</option>
-                <option value="skill-badge.html">Skill Badge</option>
+                <option value="arcade">Arcade</option>
+                <option value="labs-solution">Labs Solution</option>
+                <option value="skill-badge">Skill Badge</option>
             </select></li>
-    <li class="nav-item nav-item-hover"><a class="nav-link" href="blog.html">Blog</a></li>
+    <li class="nav-item nav-item-hover"><a class="nav-link" href="blog">Blog</a></li>
 
   
   <li class="nav-item">
