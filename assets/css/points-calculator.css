@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+html[light-mode="light"] {
+  --bg1-color: rgba(0, 0, 0, 0);
+  --text-color: #6c757d;
+  --shadow-col1: #babdc2;
+  --shadow-col2: #ffffff;
+  --meta-col: #444;
+  --head-col: black;
+}
+
+html[light-mode="dark"] {
+  --bg1-color: #272727;
+  --text-color: #fff;
+  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+  --txt-fill: transparent;
+  --shadow-col1: #191919;
+  --shadow-col2: #1d1d1d;
+  --meta-col: rgb(155, 149, 149);
+  --head-col: #fff;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 0 auto;
+}
+
+.custom-image-size {
+  width: 940px;
+  height: 601px;
+}
+
+.main-heading {
+  font-weight: 700;
+}
+
+.main-heading .my_techstacks {
+  color: #4e00bb;
+  text-shadow: 0px 0px 15px #4e00bb;
+}
+
+html[light-mode="light"] .main-heading .my_techstacks {
+  text-shadow: none !important;
+}
+
+.skill-head {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.skill-head .my_skill {
+  color: #4e00bb;
+  text-shadow: 0px 0px 15px #4e00bb;
+}
+
+html[light-mode="light"] .skill-head .my_skill {
+  text-shadow: none !important;
+}
+
+@media (max-width: 450px) {
+  .skill-head {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+
+  .main-heading {
+    font-size: 25px;
+  }
+
+  .pre-heading {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  .link-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;  
+    justify-content: center;
+  }
+  
+  .dotted-line {
+    border-bottom: 3px dotted #4e00bb; /* Adjust the color and thickness as needed */
+    display: inline-block;
+  }
+
+
+
+  .badge-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.badge-table th, .badge-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+
+
+
+
+.test{
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.dropdown_1 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.image-swags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styled-image {
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 8px;
+  border-radius: 15px;
+  animation: borderGlow 2s infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes borderGlow {
+  0% {
+    border-image-source: linear-gradient(45deg, #ff00cc, #3333ff);
+  }
+
+  50% {
+    border-image-source: linear-gradient(45deg, #ff33cc, #ff66ff);
+  }
+
+  100% {
+    border-image-source: linear-gradient(45deg, #ff00cc, #3333ff);
+  }
+}
