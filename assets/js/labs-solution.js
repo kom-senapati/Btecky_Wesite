@@ -1858,7 +1858,7 @@ document.querySelector('.main-content').classList.add('hidden-content');
 const informationcards = document.querySelector(".about_lab-solution-page");
 const info = [
   {
-    title: "Level Up Your Cloud Game: Master the Google Cloud Arcade!",
+    title: "<br><b>Level Up Your Cloud Game: Master the Google Cloud Arcade!</b><br>",
     desp: "Welcome, intrepid cloud adventurer, to your one-stop shop for conquering the Google Cloud Arcade! Here, you'll find the secrets to unlocking those coveted badges and mastering your cloud expertise.",
     desp2: "Effortless Navigation, Crystal-Clear Solutions, Aesthetics that Inspire, Embrace the Challenge, Achieve Mastery",
   }
