@@ -27,7 +27,9 @@ let header = $(`
    <li class="nav-item nav-item-hover space">
             <select id="linkDropdown" onchange="navigate()">
                 <option value="index.html">Google Cloud</option>
+                <option value="facilitator.html">Facilitator</option>
                 <option value="arcade.html">Arcade</option>
+                <option value="labs-solution.html">Labs Solution</option>
                 <option value="skill-badge.html">Skill Badge</option>
             </select></li>
     <li class="nav-item nav-item-hover"><a class="nav-link" href="blog.html">Blog</a></li>
