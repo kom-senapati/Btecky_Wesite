@@ -1,10 +1,10 @@
 const informationcards = document.querySelector(".about_pointscalculator-cards");
 const info = [
   {
-    title: "title",
-    desp: "d--1",
-    desp2: "d--2",
-    desp3: "d--3",
+    title: "<b>Effortlessly Track Your Google Cloud Arcade Points with Btecky Point Calculator</b>",
+    desp: "Introducing the Btecky Point Calculator, your ultimate free solution for effortlessly calculating your Google Cloud arcade points. Designed with user-friendliness in mind, this tool ensures that you can easily track and manage your points without any hassle. As a special benefit, our YouTube channel subscribers get exclusive access to this convenient tool, helping them maximize their learning and achievements in the Google Cloud arcade.<br>",
+    desp2: "The Btecky Point Calculator not only tallies your arcade points but also keeps you informed about your completed skill badges and any bonus points you've earned. This comprehensive overview allows you to monitor your progress and set new goals efficiently. Whether you're aiming to earn more badges or simply want to keep an eye on your current standings, the Btecky Point Calculator provides all the necessary information in one place.",
+    desp3: "<br>We are dedicated to continuously improving the Btecky Point Calculator to offer you the best service possible. Our team is constantly working on updates and enhancements to ensure that you have a seamless and rewarding experience. Join our growing community and make the most of your Google Cloud learning journey with the Btecky Point Calculator.",
   },
 ];
 
