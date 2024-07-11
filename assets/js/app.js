@@ -280,15 +280,15 @@ let footer = $(`
     </div>
     <div class="d-flex justify-content-center mt-4">
           <ul class="justify-content-center mb-0" style="text-align: center; list-style: none; color: #FFFFFF" " >
-            <li><a href="index.html" style="color:#fff;">Home</a></li>
-            <a href="arcade.html" style="color:#fff;">Arcade</a>      |      
-            <a href="skill-badge.html" style="color:#fff;">Skill Badge</a>      |      
-            <a href="labs-solution.html" style="color:#fff;">Labs Solution</a>      |      
+            <li><a href="index" style="color:#fff;">Home</a></li>
+            <a href="arcade" style="color:#fff;">Arcade</a>      |      
+            <a href="skill-badge" style="color:#fff;">Skill Badge</a>      |      
+            <a href="labs-solution" style="color:#fff;">Labs Solution</a>      |      
             <a href="blog.html" style="color:#fff;">Blogs</a>
             <li><a href="https://www.youtube.com/@btecky" style="color:#fff;">Btecky</a>      |      
             <a href="https://www.youtube.com/@Algorithm-Code" style="color:#fff;">Algorithm & Code</a></li>
-            <a href="privacy-policy.html" style="color:#fff;">Privacy Policy</a>      |      
-            <a href="disclaimer.html" style="color:#fff;">Disclaimer</a>
+            <a href="privacy-policy" style="color:#fff;">Privacy Policy</a>      |      
+            <a href="disclaimer" style="color:#fff;">Disclaimer</a>
 
           </ul>
         </div>
