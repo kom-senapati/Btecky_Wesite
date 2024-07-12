@@ -31,6 +31,7 @@ let header = $(`
                 <option value="arcade">Arcade</option>
                 <option value="labs-solution">Labs Solution</option>
                 <option value="skill-badge">Skill Badge</option>
+                <option value="points-calculator">Points Calculator</option>
             </select></li>
     <li class="nav-item nav-item-hover"><a class="nav-link" href="blog">Blog</a></li>
 
@@ -281,9 +282,11 @@ let footer = $(`
     <div class="d-flex justify-content-center mt-4">
           <ul class="justify-content-center mb-0" style="text-align: center; list-style: none; color: #FFFFFF" " >
             <li><a href="index" style="color:#fff;">Home</a></li>
-            <a href="arcade" style="color:#fff;">Arcade</a>      |      
+            <a href="arcade" style="color:#fff;">Arcade</a>      |    
+            <a href="facilitator" style="color:#fff;">Facilitator</a>      |     
             <a href="skill-badge" style="color:#fff;">Skill Badge</a>      |      
             <a href="labs-solution" style="color:#fff;">Labs Solution</a>      |      
+            <a href="points-calculator" style="color:#fff;">Points Calculator</a>      |     
             <a href="blog.html" style="color:#fff;">Blogs</a>
             <li><a href="https://www.youtube.com/@btecky" style="color:#fff;">Btecky</a>      |      
             <a href="https://www.youtube.com/@Algorithm-Code" style="color:#fff;">Algorithm & Code</a></li>
