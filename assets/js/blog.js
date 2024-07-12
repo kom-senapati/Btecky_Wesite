@@ -5,6 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".about_us-cards");
 
 const exp = [
+       // blog 9
+     {
+    title: "SalesForce 2024",
+    cardImage: "assets/images/Blog/salesforce.png",
+    topic:"Salesforce Learning Program 2024",
+    date:"10-07-2024",
+    desp: "Explore the power of Salesforce Trailhead's Trailmix: Get Started with Data Cloud Quest. This course empowers you to deliver personalized customer experiences at every touchpoint. By leveraging data insights, you can significantly increase customer satisfaction and loyalty.<br>",
+    desp2: "Dive into practical strategies and tools that drive business growth. Learn how to harness data to understand customer needs and preferences, ensuring every interaction is meaningful and impactful. Enhance your skills and elevate your customer service with this essential learning path.",
+    desp3: "Link To Video: <a href=\"https://youtu.be/vYpkmdXZ-j4\" target=\"_blank\">https://youtu.be/vYpkmdXZ-j4</a><br>Link To Event Website: <a href=\"https://shorturl.at/UxG7f\" target=\"_blank\">https://shorturl.at/UxG7f</a>",
+      },
+  
     // blog 8
      {
     title: "Flipkart GRiD 6.0",
