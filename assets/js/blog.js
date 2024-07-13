@@ -5,6 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".about_us-cards");
 
 const exp = [
+       // blog 10
+     {
+    title: "Google Opportunity 2024",
+    cardImage: "assets/images/Blog/10.png",
+    topic:"Internship Opportunity For Fresher in Google",
+    date:"13-07-2024",
+    desp: "<br><b>Software Engineering Intern, Summer 2025</b><br>Google, Bengaluru, Karnataka, India; Hyderabad, Telangana, India; Pune, Maharashtra, India<br>Application Deadline: July 21, 2024<br>Internship Duration: May/June 2025 for 10-12 weeks<br><br>Google is seeking students pursuing a Bachelor's, Master's, or Dual degree in Computer Science or a related field for its Summer 2025 Software Engineering Internship. Candidates must have experience with programming languages such as Java, C/C++, Python, JavaScript, or Go, and familiarity with Unix/Linux environments, data structures, algorithms, and software design. Preferred applicants are in their penultimate year of study and can demonstrate involvement in tech projects and extracurricular activities. Responsibilities include developing scalable software systems, collaborating on a variety of projects involving AI, machine learning, and data compression, and supporting a productive team environment.",
+    desp2: "To apply, candidates must submit an updated CV or resume and an unofficial or official transcript in English. Applicants can select their preferred work location from Bengaluru, Hyderabad, or Pune. Google is committed to equal opportunity and affirmative action, encouraging applications from all backgrounds.",
+    desp3: "Link To Video: <a href=\"https://youtu.be/oXP3nIRSTYM\" target=\"_blank\">https://youtu.be/oXP3nIRSTYM</a><br>Link To Event Website: <a href=\"https://shorturl.at/BYdL7\" target=\"_blank\">https://shorturl.at/BYdL7</a>",
+      },
+       
        // blog 9
      {
     title: "SalesForce 2024",
