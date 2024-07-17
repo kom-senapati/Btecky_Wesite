@@ -27,12 +27,12 @@ let header = $(`
    <li class="nav-item nav-item-hover space">
             <select id="linkDropdown" onchange="navigate()">
                 <option value="index">Google Cloud</option>
-                <option value="facilitator">Facilitator</option>
                 <option value="arcade">Arcade</option>
                 <option value="labs-solution">Labs Solution</option>
                 <option value="skill-badge">Skill Badge</option>
                 <option value="points-calculator">Points Calculator</option>
             </select></li>
+    <li class="nav-item nav-item-hover"><a class="nav-link" href="facilitator">Facilitator</a></li>        
     <li class="nav-item nav-item-hover"><a class="nav-link" href="blog">Blog</a></li>
 
   
