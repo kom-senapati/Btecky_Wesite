@@ -218,7 +218,7 @@ const form = [
   {
     title: "Student form",
     desp: "Click the button to get redirected to the Student Intrest form ",
-    desp2: "Refer code of facilitator www",
+    desp2: "Refer code of facilitator GCAF24-IN-JDM-SGC ",
     desp3:"Click the highlighted code to get copy",
     Button: true,
     url: "https://btecky.tech"
@@ -244,7 +244,7 @@ const form = [
 
 const showCards3 = () => {
   let output = "";
-  const command = "www";
+  const command = "GCAF24-IN-JDM-SGC";
   const escapedCommand = command.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const replaceCommandWithSpan = (text) => text.replace(new RegExp(escapedCommand, 'g'), `<span style="font-style: italic; font-weight: bold; color: blue; cursor: pointer;" onclick="copyToClipboard('${command}')">${command}</span>`);
 
@@ -340,14 +340,14 @@ document.addEventListener("DOMContentLoaded", showCards3);
 
 
 
-// document.addEventListener('contextmenu', function(e) {
-//   e.preventDefault();
-// });
-// document.addEventListener('keydown', function(e) {
-//   if (e.key === 'F12' || 
-//       (e.ctrlKey && e.shiftKey && e.key === 'I') || 
-//       (e.ctrlKey && e.shiftKey && e.key === 'J') || 
-//       (e.ctrlKey && e.key === 'U')) {
-//       e.preventDefault();
-//   }
-// });
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'F12' || 
+      (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+      (e.ctrlKey && e.shiftKey && e.key === 'J') || 
+      (e.ctrlKey && e.key === 'U')) {
+      e.preventDefault();
+  }
+});
