@@ -149,6 +149,8 @@ html[light-mode="light"] .skill-head .my_skill {
   border-radius: 15px;
   animation: borderGlow 2s infinite;
   margin-bottom: 15px;
+  height: 770px;
+  width: 950px;
 }
 
 @keyframes borderGlow {
