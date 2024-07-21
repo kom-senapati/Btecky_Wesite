@@ -221,7 +221,7 @@ const form = [
     desp2: "Refer code of facilitator GCAF24-IN-JDM-SGC ",
     desp3:"Click the highlighted code to get copy",
     Button: true,
-    url: "https://btecky.tech"
+    url: "https://www.youtube.com/@btecky"
     
   },
   
