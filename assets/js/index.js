@@ -97,7 +97,7 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/c1.png",
     description:
       "Join now , Join Community 2 if Coummunity 1 is full ",
-    link:"https://chat.whatsapp.com/IiJY9d1LUjXKjzQxLahf7E" 
+    link:"https://chat.whatsapp.com/CG5h0swdLECGTLhIQuJSsF" 
   },
   {
     title: "Btecky Whatapp Community 2",
