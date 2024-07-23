@@ -107,7 +107,7 @@ document.getElementById('calculateButton').addEventListener('click', async funct
     errorMessageElem.textContent = '';
   
     try {
-        const response = await fetch(`https://arcadehelper.vercel.app/api/search?url=${encodeURIComponent(profileUrl)}`);
+        const response = await fetch(`https://arcadehelper.vercel.app/api/facilitator?url=${encodeURIComponent(profileUrl)}`);
   
         if (!response.ok) {
             throw new Error('Failed to fetch badge points');
