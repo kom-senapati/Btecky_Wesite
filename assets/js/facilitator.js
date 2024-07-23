@@ -49,49 +49,50 @@ const exp = [
     desp3: "For Mac (CMD+SHIFT+N).",
   },
   {
-    title: "Step 3",
-   desp2: "You will get Code in the mail from which you have registered",
+    title: "Step 2",
+   desp: "Go to URL mention in the mail ",
+   desp2: "You will get URL in the mail from which you have registered",
    desp3: "Mail Subject or Tittle will be <b>Hello </b> check spam if unable to find or register with the facilator ",
    },
  {
-    title: "Step 4",
+    title: "Step 3",
     desp: "Now, sign in to your Qwiklabs account.",
     desp2: "You can find Log in button on the Top Right side of your page ",
     desp3: "",
    
  },
  {
-    title: "Step 5",
+    title: "Step 4",
     desp: "Now, if you click the profile icon on the Top Right corner , Click on it once",
     desp2: "You can see that you have 09 credits to get started.",
     desp3: "",
  },
  {
-    title: "Step 6",
+    title: "Step 5",
    desp: " Please click on the Start Lab button",
    desp2: "Then click Open Google Console, Next Paste the Password from lab Instruction page ",
    desp3: "Then click I understand , Now tick the box and click Agree and Continue  ",
  },
  {
-    title: "Step 7",
+    title: "Step 6",
    desp: "Now , Open Cloud Shell Terminal ",
    desp2: "Click , Continue ",
    desp3: "",
  },
  {
-    title: "Step 8",
+    title: "Step 7",
    desp: "Paste the command given below in the shell",
    desp2: "gcloud services enable dialogflow.googleapis.com",
    desp3: "Click the command to Copy , then paste click Enter",
  },
  {
-  title: "Step 9",
+  title: "Step 8",
  desp: "Now go back to lab instruction page",
  desp2: "Now Altest Wait for 6 min",
  desp3: "Then Click End Lab",
 },
 {
-  title: "Step 10",
+  title: "Step 9",
  desp: "Now click profile Icon On Top Right",
  desp2: "Click on credit option ",
  desp3: "You will see monthly subscription there in some time ",
@@ -130,6 +131,7 @@ const showCards2 = () => {
                   ${desp3}
                 </div>
               </ol>
+              
             </header>
           </article>
         </div>
@@ -159,7 +161,7 @@ const showCards2 = () => {
     // Replace "gcloud services enable \\dialogflow.googleapis.com" with clickable span
     const command = "gcloud services enable dialogflow.googleapis.com";
     const escapedCommand = command.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    text = text.replace(new RegExp(escapedCommand, 'g'), `<span style="font-style: italic; font-weight: bold; color: red; cursor: pointer;" onclick="copyToClipboard('${command}')">${command}</span>`);
+    text = text.replace(new RegExp(escapedCommand, 'g'), `<span style="font-style: italic; font-weight: bold; color: blue; cursor: pointer;" onclick="copyToClipboard('${command}')">${command}</span>`);
     
     return text;
   };
