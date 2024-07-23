@@ -49,13 +49,6 @@ const exp = [
     desp3: "For Mac (CMD+SHIFT+N).",
   },
   {
-     title: "Step 2",
-    desp: "Go to this URL",
-    desp2: "Click the button",
-    Button: true,
-    url: "https://www.cloudskillsboost.google/catalog?keywords=GSP282&event="
-  },
-  {
     title: "Step 3",
    desp2: "You will get Code in the mail from which you have registered",
    desp3: "Mail Subject or Tittle will be <b>Hello </b> check spam if unable to find or register with the facilator ",
@@ -137,14 +130,6 @@ const showCards2 = () => {
                   ${desp3}
                 </div>
               </ol>
-              <ol>
-                  ${Button ? `
-                    <a href="${url}" target="_blank" style="text-decoration: none; display: flex; justify-content: center;">
-                      <button class="button">
-                        <span class="hover-text" data-text="FORM LINK">FORM LINK</span>
-                      </button>
-                    </a>` : ""}
-                </ol>
             </header>
           </article>
         </div>
