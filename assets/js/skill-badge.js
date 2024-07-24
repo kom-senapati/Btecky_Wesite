@@ -22,7 +22,7 @@ const research = [
       link: `<a href="https://youtu.be/7d6JdPUK6jw?si=LnSJifEcYMgyGCvb" target="_blank">Cloud IAM: Qwik Start</a>
       <a href="https://youtu.be/33iEGdqTxK0?si=6EuLoeQNkM6lzgOA" target="_blank">Cloud Monitoring: Qwik Start</a>
       <a href="https://youtu.be/TbX83VJIEKU?si=BZoJ5VTuMFPVLCmt" target="_blank">Cloud Functions: Qwik Start - Console</a>
-      <a href="https://youtu.be/WZ-Ixqgfk_Q?si=7n7ziVbK6NqVOjzm" target="_blank">Monitor and Manage Google Cloud Resources: Challenge Lab</a>`
+      <a href="https://youtu.be/A-PVmL5GY7U?si=5ohj6O4iupkOkj0H" target="_blank">Monitor and Manage Google Cloud Resources: Challenge Lab</a>`
   },
   },
 
