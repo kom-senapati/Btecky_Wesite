@@ -23,17 +23,17 @@ let header = $(`
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index">Home</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover space">
             <select id="linkDropdown" onchange="navigate()">
-                <option value="index">Google Cloud</option>
-                <option value="arcade">Arcade</option>
-                <option value="labs-solution">Labs Solution</option>
-                <option value="skill-badge">Skill Badge</option>
-                <option value="points-calculator">Points Calculator</option>
+                <option value="index.html">Google Cloud</option>
+                <option value="arcade.html">Arcade</option>
+                <option value="labs-solution.html">Labs Solution</option>
+                <option value="skill-badge.html">Skill Badge</option>
+                <option value="points-calculator.html">Points Calculator</option>
             </select></li>
-    <li class="nav-item nav-item-hover"><a class="nav-link" href="facilitator">Facilitator</a></li>        
-    <li class="nav-item nav-item-hover"><a class="nav-link" href="blog">Blog</a></li>
+    <li class="nav-item nav-item-hover"><a class="nav-link" href="facilitator.html">Facilitator</a></li>        
+    <li class="nav-item nav-item-hover"><a class="nav-link" href="blog.html">Blog</a></li>
 
   
   <li class="nav-item">
@@ -281,17 +281,17 @@ let footer = $(`
     </div>
     <div class="d-flex justify-content-center mt-4">
           <ul class="justify-content-center mb-0" style="text-align: center; list-style: none; color: #FFFFFF" " >
-            <li><a href="index" style="color:#fff;">Home</a></li>
-            <a href="arcade" style="color:#fff;">Arcade</a>      |    
-            <a href="facilitator" style="color:#fff;">Facilitator</a>      |     
-            <a href="skill-badge" style="color:#fff;">Skill Badge</a>      |      
-            <a href="labs-solution" style="color:#fff;">Labs Solution</a>      |      
-            <a href="points-calculator" style="color:#fff;">Points Calculator</a>      |     
+            <li><a href="index.html" style="color:#fff;">Home</a></li>
+            <a href="arcade.html" style="color:#fff;">Arcade</a>      |    
+            <a href="facilitator.html" style="color:#fff;">Facilitator</a>      |     
+            <a href="skill-badge.html" style="color:#fff;">Skill Badge</a>      |      
+            <a href="labs-solution.html" style="color:#fff;">Labs Solution</a>      |      
+            <a href="points-calculator.html" style="color:#fff;">Points Calculator</a>      |     
             <a href="blog.html" style="color:#fff;">Blogs</a>
             <li><a href="https://www.youtube.com/@btecky" style="color:#fff;">Btecky</a>      |      
             <a href="https://www.youtube.com/@Algorithm-Code" style="color:#fff;">Algorithm & Code</a></li>
-            <a href="privacy-policy" style="color:#fff;">Privacy Policy</a>      |      
-            <a href="disclaimer" style="color:#fff;">Disclaimer</a>
+            <a href="privacy-policy.html" style="color:#fff;">Privacy Policy</a>      |      
+            <a href="disclaimer.html" style="color:#fff;">Disclaimer</a>
 
           </ul>
         </div>
