@@ -97,7 +97,8 @@
                         </h2>
                         <p class="pre-heading font-weight-bolder"
                             class="mb-0 mt-3 text-center animate__animated animate__zoomIn animate__delay-2s">
-                            This tool helps you calculate your total Arcade points for all Seasons.
+                            This will help you to calculate the total points for Arcade season from January 1 st to July
+                            15 th
                         </p>
 
                     </div>
@@ -111,21 +112,76 @@
 
     </div>
 
-    <h4 class="text-center heading1 skill-head">About <span class="my_skill">Points Calculator</span></h4>
-
-    
-    <!-- work about_us Card -->
-
-    <main class="container about_pointscalculator-cards">
-        
-
-    </main>
-
-
     <h4 class="text-center heading1 exp-head">How to Calculate <span class="my_about_us">Points</span></h4>
     <div class="image-swags">
         <img src="assets/images/points/arc-24_ch2.png" alt="img" class="styled-image">
     </div>
+    <h4 class="text-center heading1 exp-head">Bonus <span class="my_about_us">Points</span></h4>
+    <div class="table">
+        <!-- <h2 class="table-title">Milestones & Prizes (Final)</h2> -->
+        <table class="milestone-table">
+            <thead>
+                <tr>
+                    <th class="heading_table">Milestone</th>
+                    <th class="heading_table">Milestone Achieved</th>
+                    <th class="heading_table">Prizes*</th>
+                    <th class="heading_table">Total Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Milestone 1</td>
+                    <td>Complete <strong>2 Arcade Games</strong>, <strong>2 Trivia Games</strong> & any <strong>8 skill
+                            badges</strong> in the program</td>
+                    <td>8 Arcade + 2 Bonus Points</td>
+                    <td>10 Total Arcade Points</td>
+                </tr>
+                <tr>
+                    <td>Milestone 2</td>
+                    <td>Complete <strong>3 Arcade Games</strong>, <strong>4 Trivia Games</strong> & any <strong>18 skill
+                            badges</strong> in the program</td>
+                    <td>16 Arcade + 9 Bonus Points</td>
+                    <td>25 Total Arcade Points</td>
+                </tr>
+                <tr>
+                    <td>Milestone 3</td>
+                    <td>Complete <strong>5 Arcade Games</strong>, <strong>6 Trivia Games</strong> & any <strong>28 skill
+                            badges</strong> in the program</td>
+                    <td>25 Arcade + 15 Bonus Points</td>
+                    <td>40 Total Arcade Points</td>
+                </tr>
+                <tr>
+                    <td>Milestone 4</td>
+                    <td>Complete <strong>6 Arcade Games</strong>, <strong>8 Trivia Games</strong> & any <strong>42 skill
+                            badges</strong> in the program</td>
+                    <td>35 Arcade + 25 Bonus Points</td>
+                    <td>60 Total Arcade Points</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="note">*You will only receive points for the milestone that you earn and not for the ones before that.
+        </p>
+        <p class="note">*It will be only counted when badges are earned from 22 July to 22 September
+        </p>
+        <p class="note">*It will be only edigible for students joined Arcade Facilitator Program
+        </p>
+
+
+
+
+    </div>
+    <div class="bonus-point-img">
+        <a href="assets/images/facilitator/bonus.png" download="facilitator-bonus-points.jpg"
+            class="button_11">Download</a>
+    </div>
+
+
+    <!-- work about_us Card -->
+
+    <main class="container about_pointscalculator-cards">
+
+
+    </main>
     </div>
     <h4 class="text-center heading1 skill-head">Points to <span class="my_skill">be Noted</span></h4>
 
@@ -162,24 +218,100 @@
         </article>
     </div>
     <div class="container_points">
-        <div class="note">
-            Note: 2 skill badges = 1 point
+        <div>
+            <div class="note">
+                Note: 2 skill badges = 1 point
+            </div>
+            <h2>Badge Points Calculator</h2>
+            <input id="profileUrl" type="text" class="input-field" placeholder="Enter your public profile URL">
+            <button id="calculateButton" class="button">Calculate Points</button>
+            <p id="totalPoints" class="message"></p>
         </div>
-        <h2>Badge Points Calculator</h2>
-        <input id="profileUrl" type="text" class="input-field" placeholder="Enter your public profile URL">
-        <button id="calculateButton" class="button">Calculate Points</button>
-        <p id="totalPoints" class="message"></p>
-        <div class="badgebox">
+
+
+        <hr>
+
+        <div id="milestoneToggle" class="toggler" style="display: none;">
+            <label for="toggler-1" class="toggle-label">
+                <span class="toggle-text-1">Milestone Progress (Facilitator)</span>
+                <input id="toggler-1" name="toggler-1" type="checkbox" value="1">
+                <span class="toggle-container">
+                    <svg class="toggler-on" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                        <polyline class="path check" points="100.2,40.2 51.5,88.8 29.8,67.5"></polyline>
+                    </svg>
+                    <svg class="toggler-off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                        <line class="path line" x1="34.4" y1="34.4" x2="95.8" y2="95.8"></line>
+                        <line class="path line" x1="95.8" y1="34.4" x2="34.4" y2="95.8"></line>
+                    </svg>
+                </span>
+            </label>
+        </div>
+
+        <div id="summaryToggle" class="toggler" style="display: none;">
+            <label for="toggler-2" class="toggle-label">
+                <span class="toggle-text-2">Badge Summary</span>
+                <input id="toggler-2" name="toggler-2" type="checkbox" value="1">
+                <span class="toggle-container">
+                    <svg class="toggler-on" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                        <polyline class="path check" points="100.2,40.2 51.5,88.8 29.8,67.5"></polyline>
+                    </svg>
+                    <svg class="toggler-off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                        <line class="path line" x1="34.4" y1="34.4" x2="95.8" y2="95.8"></line>
+                        <line class="path line" x1="95.8" y1="34.4" x2="34.4" y2="95.8"></line>
+                    </svg>
+                </span>
+            </label>
+        </div>
+
+        <hr id="summaryToggle">
+
+        <div id="badgebox" class="badgebox" style="display: none;">
             <div>
-                <select id="badgeDropdown" class="dropdown_1">
+                <select id="badgeDropdown" class="dropdown_1" style="display: none;">
                     <!-- <option value="" selected disabled>Select Badge Type</option> -->
                     <option value="all">All Badges</option>
                 </select>
             </div>
-            <div id="badge-summary"></div>
+            <div id="badge-summary" style="display: none;"></div>
         </div>
+      
         <p id="errorMessage" class="message" style="color: red;"></p>
-        <p class="message" style="color: #777;">Last Updated: 23/7/24 09:40 PM</p>
+
+
+        <div id="milestones" style="display: none;">
+            <h1>Milestone Progress (Facilitator)</h1>
+            <div class="milestone">
+                <h4 id="milestone1-heading">Milestone 1: Complete 2 Arcade Games, 2 Trivia Games & 8 Skill Badges</h4>
+                <div class="progress-bar-container">
+                    <div id="milestone1" class="progress-bar"></div>
+                </div>
+                <span id="milestone1-text" class="progress-text"></span>
+            </div>
+            <div class="milestone">
+                <h4 id="milestone2-heading">Milestone 2: Complete 3 Arcade Games, 4 Trivia Games & 18 Skill Badges</h4>
+                <div class="progress-bar-container">
+                    <div id="milestone2" class="progress-bar"></div>
+                </div>
+                <span id="milestone2-text" class="progress-text"></span>
+            </div>
+            <div class="milestone">
+                <h4 id="milestone3-heading">Milestone 3: Complete 5 Arcade Games, 6 Trivia Games & 28 Skill Badges</h4>
+                <div class="progress-bar-container">
+                    <div id="milestone3" class="progress-bar"></div>
+                </div>
+                <span id="milestone3-text" class="progress-text"></span>
+            </div>
+            <div class="milestone">
+                <h4 id="ultimateMilestone-heading">Ultimate Milestone: Complete 6 Arcade Games, 8 Trivia Games & 42
+                    Skill Badges</h4>
+                <div class="progress-bar-container">
+                    <div id="ultimateMilestone" class="progress-bar"></div>
+                </div>
+                <span id="ultimateMilestone-text" class="progress-text"></span>
+            </div>
+        </div>
+
+        <p class="message" style="color: #777;">Last Updated: 26/6/24 10:00 PM</p>
     </div>
     </div>
 
@@ -201,6 +333,7 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/points-calculator.js"></script>
+    
 </body>
 
 </html>
