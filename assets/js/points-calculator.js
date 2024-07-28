@@ -325,6 +325,10 @@ function updateMilestoneProgress(milestoneId, arcadeGamesCount, requiredArcade, 
     const progressText = document.getElementById(`${milestoneId}-text`);
     const progressHeader = document.getElementById(`${milestoneId}-heading`);
 
+    if (progressHeader.textContent.endsWith("🔒") || progressHeader.textContent.endsWith("🏆")) {
+      progressHeader.textContent = progressHeader.textContent.slice(0, -2);
+    }
+
     if (!progressBar || !progressText) {
         console.error(`Cannot find progress bar or text for milestone: ${milestoneId}`);
         return;
