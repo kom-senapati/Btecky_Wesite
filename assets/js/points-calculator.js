@@ -139,6 +139,16 @@ document.getElementById('calculateButton').addEventListener('click', async funct
       }
     });
 
+    const arcadeGamesCount = badgeSummary['levels'].count;
+    const triviaGamesCount = badgeSummary['trivia'].count;
+    const skillBadgesCount = badgeSummary['skill_badge'].count + badgeSummary["monsoon_badge"].count;
+
+    // Update milestone progress bars
+    updateMilestoneProgress('milestone1', arcadeGamesCount, 2, triviaGamesCount, 2, skillBadgesCount, 8);
+    updateMilestoneProgress('milestone2', arcadeGamesCount, 3, triviaGamesCount, 4, skillBadgesCount, 18);
+    updateMilestoneProgress('milestone3', arcadeGamesCount, 5, triviaGamesCount, 6, skillBadgesCount, 28);
+    updateMilestoneProgress('ultimateMilestone', arcadeGamesCount, 6, triviaGamesCount, 8, skillBadgesCount, 42);
+
     // Populate the dropdown with badge types
     const dropdown = document.getElementById('badgeDropdown');
     dropdown.innerHTML = '<option value="all">All Badges</option>';
@@ -232,6 +242,10 @@ document.getElementById('calculateButton').addEventListener('click', async funct
       const summaryTable = document.createElement('table');
       summaryTable.classList.add('badge-table');
 
+      const tableTitle = document.createElement('h3');
+      tableTitle.textContent = 'Badge Summary';
+
+      
       // Generate header row using innerHTML
       const headers = ['Type', 'Badge Count', 'Total Points'];
       let headerHtml = '<tr>';
@@ -273,9 +287,29 @@ document.getElementById('calculateButton').addEventListener('click', async funct
       summaryDiv.appendChild(summaryTable);
     }
 
-    // Initial display of the "All Types" summary
     dropdown.value = "all";
     displayAllBadgeSummary();
+
+    document.querySelector(".toggler").style.display = "block";
+
+    const showMilestoneToggle = document.getElementById('toggler-1');
+
+    showMilestoneToggle.addEventListener('change', () => {
+        document.getElementById("milestones").style.display = showMilestoneToggle.checked ? "block" : "none"
+    });
+
+    const showSummaryToggle = document.getElementById('toggler-2');
+
+    showSummaryToggle.addEventListener('change', () => {
+        document.getElementById("badge-summary").style.display = showSummaryToggle.checked ? "block" : "none"
+        document.getElementById("badgeDropdown").style.display = showSummaryToggle.checked ? "block" : "none"
+    });
+
+    const togglers = ["milestoneToggle", "summaryToggle", "badgebox"];
+
+    for (const toggle of togglers) {
+      document.getElementById(toggle).style.display = "block";
+    }
 
   } catch (err) {
     errorMessageElem.textContent = err.message;
@@ -285,6 +319,33 @@ document.getElementById('calculateButton').addEventListener('click', async funct
   }
 });
 
+  
+function updateMilestoneProgress(milestoneId, arcadeGamesCount, requiredArcade, triviaGamesCount, requiredTrivia, skillBadgesCount, requiredSkillBadges) {
+    const progressBar = document.getElementById(milestoneId);
+    const progressText = document.getElementById(`${milestoneId}-text`);
+    const progressHeader = document.getElementById(`${milestoneId}-heading`);
+
+    if (!progressBar || !progressText) {
+        console.error(`Cannot find progress bar or text for milestone: ${milestoneId}`);
+        return;
+    }
+
+    arcadeGamesCount = Math.min(arcadeGamesCount , requiredArcade);
+    triviaGamesCount = Math.min(triviaGamesCount , requiredTrivia);
+    skillBadgesCount = Math.min(skillBadgesCount  , requiredSkillBadges);
+
+    const overallProgress = (arcadeGamesCount + triviaGamesCount + skillBadgesCount) / (requiredArcade + requiredTrivia + requiredSkillBadges);
+    const percentage = (overallProgress * 100).toFixed(2);
+
+    if (percentage < 100) {
+        progressHeader.textContent = progressHeader.textContent + '🔒'
+    } else {
+        progressHeader.textContent = progressHeader.textContent + '🏆'
+    }
+
+    progressBar.style.width = `${percentage}%`;
+    progressText.textContent = `${percentage}% Completed (${arcadeGamesCount}/${requiredArcade} Arcade, ${triviaGamesCount}/${requiredTrivia} Trivia, ${skillBadgesCount}/${requiredSkillBadges} Skill Badge)`;
+}
   
   
   
