@@ -166,3 +166,354 @@ html[light-mode="light"] .skill-head .my_skill {
     border-image-source: linear-gradient(45deg, #ff00cc, #3333ff);
   }
 }
+
+
+
+
+
+
+/* price reward table css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg1-color);
+  color: var(--p-up);
+}
+
+.table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-title {
+  color: var(--p-up);
+  /* Use primary text color */
+  margin-bottom: 20px;
+  font-size: 40px;
+   /* Decreased font size for heading */
+}
+
+.milestone-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: var(--bg-col);
+  /* Background color for table */
+  border: 2px solid var(--p-up);
+  /* External border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Hover animation */
+}
+
+.milestone-table th,
+.milestone-table td {
+  border: 1px solid var(--p-up);
+  /* Internal border */
+  padding: 12px;
+  text-align: center;
+  color: var(--p-up);
+  /* Text color */
+}
+
+.heading_table {
+  background-color: var(--bg-head);
+  /* Background color for headings */
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--p-up);
+  /* Text color for headings */
+}
+
+.milestone-table th {
+  background-color: var(--cite-head);
+  /* Background color for table header */
+  color: var(--cite-col-txt);
+  /* Text color for table header */
+}
+
+.milestone-table td {
+  vertical-align: top;
+}
+
+.note {
+  font-size: 14px;
+  color: var(--p-up);
+  text-align: left;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Hover animation for table */
+.milestone-table:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px var(--shadow-col1);
+}
+
+/* Download button styles */
+.bonus-point-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.button_11 {
+  width: 140px;
+  /* Increased width */
+  height: 42px;
+  /* Increased height */
+  border: 3px solid #315cfd;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1.5em;
+  /* Increased font size */
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.button_11:hover {
+  background: #315cfd;
+  color: white;
+  font-size: 1.3em;
+  /* Adjusted font size for hover state */
+}
+
+
+h4 {
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+.progress-bar-container {
+  position: relative;
+  height: 25px;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #76c7c0;
+  width: 0;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-text {
+  font-weight: bold;
+  color: #fff;
+  line-height: 25px;
+}
+
+
+
+
+.milestone {
+  margin-bottom: 20px;
+}
+
+.progress-bar-container {
+  position: relative;
+  height: 25px;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  /* Adjusted margin to make space for the text */
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Different colors for each milestone */
+#milestone1 {
+  background-color: #3b82f6;
+  /* Blue */
+}
+
+#milestone2 {
+  background-color: #facc15;
+  /* Yellow */
+}
+
+#milestone3 {
+  background-color: #22c55e;
+  /* Green */
+}
+
+#ultimateMilestone {
+  background-color: #ef4444;
+  /* Red */
+}
+
+.progress-text {
+  font-weight: bold;
+  color: #dd0202;
+  margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.toggler {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  /* Space around the togglers */
+}
+
+.toggler input {
+  display: none;
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: fit-content;
+  margin: 10px;
+  /* Optional: Add some space around the label */
+}
+
+.toggle-text-1 {
+  margin-right: 54px;
+ 
+  /* Space between text and toggle */
+  font-size: 20px;
+    
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+}
+
+.toggle-text-2 {
+  margin-right: 190px;
+
+  /* Space between text and toggle */
+  font-size: 20px;
+    
+
+  /* Prevent text from wrapping */
+}
+
+.toggle-container {
+  position: relative;
+  width: 72px;
+  height: 36px;
+  border: 1px solid #d6d6d6;
+  border-radius: 36px;
+  background: #e4e8e8;
+  overflow: hidden;
+}
+
+.toggle-container::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: 26px;
+  height: 26px;
+  background-color: #d7062a;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: left 0.15s ease-in-out, background-color 0.2s ease-out;
+  animation-name: toggler-size;
+  animation-duration: 0.15s;
+  animation-timing-function: ease-out;
+  animation-direction: forwards;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+}
+
+.toggler input:checked+.toggle-container::after {
+  left: 75%;
+  background-color: #50ac5d;
+  animation-name: toggler-size2;
+}
+
+.toggler .toggler-on,
+.toggler .toggler-off {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: 26px;
+  height: 26px;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.15s ease-in-out;
+  opacity: 0;
+  z-index: 2;
+}
+
+.toggler input:checked+.toggle-container .toggler-on {
+  opacity: 1;
+  left: 75%;
+}
+
+.toggler input:not(:checked)+.toggle-container .toggler-off {
+  opacity: 1;
+  left: 25%;
+}
+
+.toggler .path {
+  fill: none;
+  stroke: #fefefe;
+  stroke-width: 7px;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+@keyframes toggler-size {
+
+  0%,
+  100% {
+    width: 26px;
+    height: 26px;
+  }
+
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@keyframes toggler-size2 {
+
+  0%,
+  100% {
+    width: 26px;
+    height: 26px;
+  }
+
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
