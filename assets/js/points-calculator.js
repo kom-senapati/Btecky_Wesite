@@ -245,7 +245,6 @@ document.getElementById('calculateButton').addEventListener('click', async funct
       const tableTitle = document.createElement('h3');
       tableTitle.textContent = 'Badge Summary';
 
-      
       // Generate header row using innerHTML
       const headers = ['Type', 'Badge Count', 'Total Points'];
       let headerHtml = '<tr>';
@@ -284,6 +283,7 @@ document.getElementById('calculateButton').addEventListener('click', async funct
       `;
 
       summaryTable.innerHTML += rowsHtml;
+      summaryDiv.appendChild(tableTitle);
       summaryDiv.appendChild(summaryTable);
     }
 
