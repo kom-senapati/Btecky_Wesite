@@ -214,9 +214,17 @@ document.getElementById('calculateButton').addEventListener('click', async funct
       types.forEach(type => {
         if (badgeSummary[type].count > 0) {
           // Create and append the type header
-          const typeHeader = document.createElement('h3');
-          typeHeader.textContent = type.charAt(0).toUpperCase() + type.slice(1).replace('_', ' ');
-          summaryDiv.appendChild(typeHeader);
+          // Create an <h3> element
+        const typeHeader = document.createElement('h3');
+
+        // Transform the badge type string to capitalize each word and set as text content
+        typeHeader.textContent = type
+          .split('_') // Split the string at underscores
+          .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize the first letter of each word
+          .join(' '); // Join the words with spaces
+
+          // Append the <h3> element to the summaryDiv
+         summaryDiv.appendChild(typeHeader);
 
           // Create and append the table of badges
           const badgeTable = document.createElement('table');
