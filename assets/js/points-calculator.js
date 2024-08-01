@@ -120,7 +120,7 @@ document.getElementById('calculateButton').addEventListener('click', async funct
     totalPointsElem.textContent = `Total Points: ${data.totalPoints}`;
     const badges = data.badges;
     const badgeSummary = {};
-    const types = ["levels", "trivia", "special_badge", "certificate_zone", "skill_badge", "monsoon_badge", "completion_badge"];
+    const types = ["levels", "trivia", "special_badge", "certificate_zone", "skill_badge", "monsoon_badge", "Digital_Leader"];
 
     // Initialize the badgeSummary object with the types
     types.forEach(type => {
