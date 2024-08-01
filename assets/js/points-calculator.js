@@ -267,9 +267,14 @@ document.getElementById('calculateButton').addEventListener('click', async funct
           const summary = badgeSummary[type];
           totalBadges += summary.count;
           totalPoints += summary.points;
-          rowsHtml += `
-              <tr>
-                  <td>${type.charAt(0).toUpperCase() + type.slice(1).replace('_', ' ')}</td>
+          const typehead = type
+           .split('_') // Split the string at underscores
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize the first letter of each word
+            .join(' '); // Join the words with spaces
+
+    rowsHtml += `
+        <tr>
+                  <td>${typehead}</td>
                   <td>${summary.count}</td>
                   <td>${summary.points}</td>
               </tr>
