@@ -120,14 +120,19 @@ document.getElementById('calculateButton').addEventListener('click', async funct
     totalPointsElem.textContent = `Total Points: ${data.totalPoints}`;
     const badges = data.badges;
     const badgeSummary = {};
-    const types = ["levels", "trivia", "special_badge", "certificate_zone", "skill_badge", "monsoon_badge", "Digital_Leader"];
+    let types = ["levels", "trivia", "special_badge", "certificate_zone", "skill_badge", "monsoon_badge"];
 
     // Initialize the badgeSummary object with the types
     types.forEach(type => {
       badgeSummary[type] = { badges: [], count: 0, points: 0 };
     });
 
+    types.push("Digital_Leader")
+
     // Populate the badgeSummary object with badge data
+    let digitalLeaderBadgesCount = 0;
+    let digitalLeaderBadges = [];
+
     badges.forEach(badge => {
       const { name, type, points } = badge;
 
@@ -136,12 +141,19 @@ document.getElementById('calculateButton').addEventListener('click', async funct
         badgeSummary["monsoon_badge"].badges.push(name);
         badgeSummary["monsoon_badge"].count += 1;
         badgeSummary["monsoon_badge"].points += points;
+      } else if (type == "Digital_Leader") {
+        digitalLeaderBadgesCount++;
+        digitalLeaderBadges.push(name);
       } else if (badgeSummary[type]) {
         badgeSummary[type].badges.push(name);
         badgeSummary[type].count += 1;
         badgeSummary[type].points += points;
       }
     });
+
+    let digitalLeaderBadgesPoint = (digitalLeaderBadgesCount == 6) ? 5 : 0
+    
+    badgeSummary["Digital_Leader"] = { badges: digitalLeaderBadges, count: digitalLeaderBadgesCount, points: digitalLeaderBadgesPoint }
 
     const arcadeGamesCount = badgeSummary['levels'].count;
     const triviaGamesCount = badgeSummary['trivia'].count;
@@ -372,16 +384,16 @@ function updateMilestoneProgress(milestoneId, arcadeGamesCount, requiredArcade, 
   
   
   
-  document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-  });
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'F12' || 
-        (e.ctrlKey && e.shiftKey && e.key === 'I') || 
-        (e.ctrlKey && e.shiftKey && e.key === 'J') || 
-        (e.ctrlKey && e.key === 'U')) {
-        e.preventDefault();
-    }
-  });
+  // document.addEventListener('contextmenu', function(e) {
+  //   e.preventDefault();
+  // });
+  // document.addEventListener('keydown', function(e) {
+  //   if (e.key === 'F12' || 
+  //       (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+  //       (e.ctrlKey && e.shiftKey && e.key === 'J') || 
+  //       (e.ctrlKey && e.key === 'U')) {
+  //       e.preventDefault();
+  //   }
+  // });
   
   
